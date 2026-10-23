@@ -1,0 +1,10 @@
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+torch==2.11.0
+transformers==4.50.0
+accelerate==0.34.2
+tqdm==4.70.1
+sentencepiece==0.2.1
+protobuf>=5.29,<7
+gdown==6.4.0
