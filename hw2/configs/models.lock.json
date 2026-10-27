@@ -1,0 +1,14 @@
+{
+  "models": [
+    {
+      "repo_id": "intfloat/e5-base-v2",
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+      "destination": "models/e5-base-v2"
+    },
+    {
+      "repo_id": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "destination": "models/bge-reranker-v2-m3"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "config": {
+    "strategy": "bm25",
+    "dense_model": "models/bge-large-en-v1.5",
+    "reranker_model": "models/bge-reranker-v2-m3",
+    "device": "cuda:0",
+    "encode_batch_size": 8,
+    "rerank_batch_size": 4,
+    "dense_max_length": 384,
+    "rerank_max_length": 384,
+    "query_max_length": 128,
+    "retrieve_k": 160,
+    "rerank_k": 80,
+    "rrf_k": 60,
+    "cache_dir": "cache/retrieval",
+    "seed": 2026,
+    "document_views": 2,
+    "tail_words": 180,
+    "recent_query_weight": 0.5,
+    "lexical_weight": 1.0,
+    "dense_weight": 1.5,
+    "bm25_bigrams": true,
+    "turn_weights": true,
+    "title_boost": 3.0
+  },
+  "strategy": "bm25",
+  "query_count": 487,
+  "product_count": 50000,
+  "cache_hit": false,
+  "model_fingerprints": {},
+  "timings": {
+    "lexical_seconds": 27.564872403861955,
+    "total_seconds": 27.566844651009887
+  }
+}

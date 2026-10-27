@@ -1,0 +1,19 @@
+{
+  "selected": "T_listwise",
+  "metrics": {
+    "queries": 487,
+    "exact_recall@10": 0.7967145790554415,
+    "exact_mrr@10": 0.6897982464717578
+  },
+  "public_data_used": false,
+  "criterion": "Train-validation MRR@10, then Recall@10, then time",
+  "result_sha256": {
+    "L0_v3": "6d7d3ccdf3c6b48f5c8f70367a6741fd029bdf7904b6988939acf818047e5f10",
+    "C0_pretrained": "c019469d0e4219d2ad02c0ca31ec7a51dbab3c485e6d65914f871604a1ac2ffe",
+    "C1_v3_new_candidates": "e0af2e44303dd1cc47b350305030014a86a211d0528c8aa0ef7eb0883941001b",
+    "T_listwise": "1b1502bd7bbe09c08c3929f8968c4e1e83a0988d4eea90cfb10bc4f938b29efc",
+    "T_listwise_blend": "86fe3a38d15163a2176e42de4074a30c3b8faf17f2f2ec8bb355643f041ad1d7",
+    "T_pairwise": "a9802c0ca0c1c70025e1023b2e9ed8be43f3c80d6f274bdc396c564b3cdbd796",
+    "T_pairwise_blend": "1a0ba5a75c95ae6dfa7a9be52922b21739c2254d7b5c0052797308ab60676bbb"
+  }
+}

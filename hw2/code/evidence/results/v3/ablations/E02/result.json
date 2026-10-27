@@ -1,0 +1,117 @@
+{
+  "id": "E02",
+  "name": "Dense BGE base",
+  "parent": null,
+  "config": {
+    "strategy": "dense",
+    "dense_model": "models/bge-base-en-v1.5",
+    "reranker_model": "models/bge-reranker-v2-m3",
+    "device": "cuda:0",
+    "encode_batch_size": 8,
+    "rerank_batch_size": 4,
+    "dense_max_length": 384,
+    "rerank_max_length": 384,
+    "query_max_length": 128,
+    "retrieve_k": 160,
+    "rerank_k": 80,
+    "rrf_k": 60,
+    "cache_dir": "cache/retrieval",
+    "seed": 2026,
+    "document_views": 1,
+    "tail_words": 180,
+    "recent_query_weight": 0.0,
+    "lexical_weight": 1.0,
+    "dense_weight": 1.5,
+    "bm25_bigrams": true,
+    "turn_weights": true,
+    "title_boost": 3.0
+  },
+  "provenance": {
+    "config": {
+      "strategy": "dense",
+      "dense_model": "models/bge-base-en-v1.5",
+      "reranker_model": "models/bge-reranker-v2-m3",
+      "device": "cuda:0",
+      "encode_batch_size": 8,
+      "rerank_batch_size": 4,
+      "dense_max_length": 384,
+      "rerank_max_length": 384,
+      "query_max_length": 128,
+      "retrieve_k": 160,
+      "rerank_k": 80,
+      "rrf_k": 60,
+      "cache_dir": "cache/retrieval",
+      "seed": 2026,
+      "document_views": 1,
+      "tail_words": 180,
+      "recent_query_weight": 0.0,
+      "lexical_weight": 1.0,
+      "dense_weight": 1.5,
+      "bm25_bigrams": true,
+      "turn_weights": true,
+      "title_boost": 3.0
+    },
+    "manifest_sha256": "a128b41bca241ccff1720c06800b3d6e8eb79e1907404dadca89c5cead710f32",
+    "code": {
+      "retrieval_utils.py": "6cac78e4421c4e970a4b7b301716b8e12fc9c00171e48cb8e9347cf63a8434a9",
+      "scripts/run_ablations.py": "acc1d326cb0189ebc2c041d35e8310f926f66daead3d02057183376e68b2ea72",
+      "scripts/v3_experiments.py": "ebc46b61f4522e7e9b35108b5f77426322ae5f9a5ae817a640ebfe9e9f595a4b",
+      "scripts/common.py": "2f0ac47565ce8e08422a07b48a313f2eb5587c736af43d2189a4d78ae3d52b57",
+      "eval_utils.py": "47b1dd2dee9b6c9769d4952dc32712ac8e25f0cb57665ceb2247880d43e32e0b"
+    },
+    "models": {
+      "dense": "f6e8073ad9928c689c1beb84a7361e7f030c39af1451935e4da40ecf85275ae6"
+    }
+  },
+  "predictions_sha256": "cb600ed28acd5f909d0b1f412787e51d82e972d421c737f3e0ec24ad7adcca43",
+  "metrics": {
+    "queries": 487,
+    "exact_recall@10": 0.49691991786447637,
+    "exact_mrr@10": 0.2990841237247808
+  },
+  "candidate_metrics": {
+    "queries": 487,
+    "exact_recall@80": 0.7535934291581109,
+    "exact_mrr@80": 0.3100579964858112
+  },
+  "runtime": {
+    "config": {
+      "strategy": "dense",
+      "dense_model": "models/bge-base-en-v1.5",
+      "reranker_model": "models/bge-reranker-v2-m3",
+      "device": "cuda:0",
+      "encode_batch_size": 8,
+      "rerank_batch_size": 4,
+      "dense_max_length": 384,
+      "rerank_max_length": 384,
+      "query_max_length": 128,
+      "retrieve_k": 160,
+      "rerank_k": 80,
+      "rrf_k": 60,
+      "cache_dir": "cache/retrieval",
+      "seed": 2026,
+      "document_views": 1,
+      "tail_words": 180,
+      "recent_query_weight": 0.0,
+      "lexical_weight": 1.0,
+      "dense_weight": 1.5,
+      "bm25_bigrams": true,
+      "turn_weights": true,
+      "title_boost": 3.0
+    },
+    "strategy": "dense",
+    "query_count": 487,
+    "product_count": 50000,
+    "cache_hit": false,
+    "model_fingerprints": {
+      "dense": "f6e8073ad9928c689c1beb84a7361e7f030c39af1451935e4da40ecf85275ae6"
+    },
+    "timings": {
+      "lexical_seconds": 27.33682905510068,
+      "dense_and_fusion_seconds": 135.6932866568677,
+      "peak_cuda_allocated_gib": 0.2695174217224121,
+      "peak_cuda_reserved_gib": 0.314453125,
+      "total_seconds": 163.04069383000024
+    }
+  }
+}

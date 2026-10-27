@@ -1,0 +1,10 @@
+{
+  "models": [
+    {"repo_id": "BAAI/bge-base-en-v1.5", "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a", "destination": "models/bge-base-en-v1.5"},
+    {"repo_id": "BAAI/bge-reranker-base", "revision": "2cfc18c9415c912f9d8155881c133215df768a70", "destination": "models/bge-reranker-base"},
+    {"repo_id": "Qwen/Qwen2.5-1.5B-Instruct", "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306", "destination": "models/Qwen2.5-1.5B-Instruct"},
+    {"repo_id": "BAAI/bge-large-en-v1.5", "revision": "d4aa6901d3a41ba39fb536a557fa166f842b0e09", "destination": "models/bge-large-en-v1.5"},
+    {"repo_id": "BAAI/bge-reranker-v2-m3", "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e", "destination": "models/bge-reranker-v2-m3"}
+  ],
+  "trained_files": []
+}

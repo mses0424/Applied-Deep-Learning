@@ -1,0 +1,35 @@
+[
+  {
+    "epoch": 0,
+    "checkpoint": "pretrained",
+    "validation": {
+      "queries": 487,
+      "exact_recall@10": 0.5359342915811088,
+      "exact_mrr@10": 0.33512923307584497
+    }
+  },
+  {
+    "epoch": 1,
+    "mean_loss": 0.6802315817514982,
+    "validation": {
+      "queries": 487,
+      "exact_recall@10": 0.731006160164271,
+      "exact_mrr@10": 0.6259908412372479
+    },
+    "updates": 272,
+    "overflow_skips": 0,
+    "epoch_seconds": 1074.103305350989
+  },
+  {
+    "epoch": 2,
+    "mean_loss": 0.5723881805763797,
+    "validation": {
+      "queries": 487,
+      "exact_recall@10": 0.7351129363449692,
+      "exact_mrr@10": 0.6204385450278673
+    },
+    "updates": 272,
+    "overflow_skips": 0,
+    "epoch_seconds": 1074.7240468419623
+  }
+]

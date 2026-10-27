@@ -1,0 +1,6092 @@
+{
+  "judge": {
+    "model": "models/Qwen2.5-1.5B-Instruct",
+    "dtype": "bfloat16",
+    "alternative_gain": 1,
+    "comparisons": 690,
+    "runtime_seconds": 665.2181675098836,
+    "comparisons_per_second": 1.0372536916465802,
+    "peak_cuda_memory_gib": 6.469224452972412,
+    "peak_cuda_memory_reserved_gib": 10.162109375,
+    "parse_failures": 0
+  },
+  "metrics": {
+    "queries": 69,
+    "graded_recall@10": 0.5362318840579711,
+    "graded_mrr@10": 0.27571888658845184
+  },
+  "records": [
+    {
+      "qid": "public-test-beauty-000037",
+      "gold_pid": "B018K3HD62",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01LR80YIQ",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B09NFFSC5M",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07SPY1GJG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B08WJNDSVT",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07ZXFZ2SW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07H8LVM7D",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07SXC9PGB",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B09JRB4L8X",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B071R1L4LQ",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 10,
+          "pid": "B09KC74VH6",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000043",
+      "gold_pid": "B00IFSANQ0",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07F2TB2XG",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B09ZPTWLCP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07B46FXBG",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0C5TT6DWX",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0BQPQJ1LW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B09WB4DM5H",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0C6K2YS86",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B005SPEWLA",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07V33QXTD",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B00DAYGJVW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000060",
+      "gold_pid": "B0C6BL2LBQ",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07SK34WDR",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07KW3KXX7",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B098DNSH3K",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B001EJOPPM",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0897VPWRP",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 6,
+          "pid": "B002LZYVWA",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07MJDSJLH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0010XUU9M",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0B5VWZV7J",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0BR4X3V99",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000062",
+      "gold_pid": "B075M76F8L",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.25,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07SMW3PZ2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BVLDSZH5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0983K39TH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B07Q3K3N61",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B00CELI1K4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07MVJWLYW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B09VTF5R58",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B081MRQMVS",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 9,
+          "pid": "B01M0RG91Z",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B01F8SRBK0",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000063",
+      "gold_pid": "B00BSE0JSK",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07X3ZWVG8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B01HMW4D6A",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B000NIY7QM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0C5DMLL3X",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B000NJ2218",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B001CYC4I4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B000NJHNLW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0BG8LN4ZH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0BY9L6Z2F",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0C6QNY98T",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000083",
+      "gold_pid": "B00EMJ28GO",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.25,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00TXNOS2Q",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B003ZS4WJY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B003ZS8MNG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B08G6GVL6K",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0041R15AC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0BQCF9RBP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00011JI88",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B003ZS6OJK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0775MD6R7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B09DW4WXNY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000085",
+      "gold_pid": "B0BTH9GBTP",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B000PHISKW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B09XS5V968",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B091F6D85W",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B08FB6PRT5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0BVMKS2C8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0BS9HH185",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0C2NMTVML",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0BYZ7XHYL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0BPGY1W1T",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B01AKXSY36",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000086",
+      "gold_pid": "B09HKG2BXD",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00ID8H838",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B004SU8EKG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B005GHMPE6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B09B2XDCY8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B000094Q6C",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B01M6YQAQK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B09KLYF8YX",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00005CDSQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00ANW4LLY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B006OHM11Y",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000113",
+      "gold_pid": "B09NN2726V",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B003AXUQOO",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BT9JGGNF",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0C7162RF8",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 4,
+          "pid": "B084GBFJTR",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B003Z9308M",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 6,
+          "pid": "B08LDZ957Q",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B019F0F0O6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0B84DX8RM",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 9,
+          "pid": "B082JJ4D98",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B01N33VJZV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000155",
+      "gold_pid": "B00O6BO0LY",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.3333333333333333,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B004Y9M2U4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00JE96EIU",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00C67E0PG",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0BDW4R1B5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B08GGYLV2J",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0017K81TY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00HLEF32S",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07SB2HCSS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0BS9NTRJ5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B09852KTMG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000161",
+      "gold_pid": "B07BZ5KPB7",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B081W6TKZT",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BLCH947L",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B01N97PCBH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0BKSXK1LL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B09JN28DVN",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0CH3ZH7BP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B01N3RVT5Y",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0BSPN2XM7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B000GFZWDO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B002MO3CG6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-beauty-000180",
+      "gold_pid": "B0C61CMQPV",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B08597QCDB",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B09N3PZH17",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B094R437NW",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0BGWWDD1M",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B001RMP7M6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0BGN396D9",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B09124F6SB",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0BNQ6V1WG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0B1PVHJRD",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07TSLZL2D",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000022",
+      "gold_pid": "B09G1P3LHK",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00111BXTY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07PNS4SR1",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B09ZDGNRL3",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B07RM55ZYG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07MZMSL6R",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0C1WDZKV9",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B008EXDOT4",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 8,
+          "pid": "B08JDX8BHW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0BRSJJVX8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0BGYMN1L8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000023",
+      "gold_pid": "B08SBRY94Y",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0060HOMHE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07XGR3VX7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B006X1LOQO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B09FC195QZ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B000R87B1Q",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B00PAI47VA",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B001CS6BIY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B096K2G2VQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0015K9BXQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B09W2F9QKP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000028",
+      "gold_pid": "B08G2F7XT1",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.16666666666666666,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B09WBTH2L5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0C5ZHL95F",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B007K5CL9Q",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B077FNHTMZ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B08KJ7BGMX",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B08LN5HB6G",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B000VZBVM0",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07WZQCL1N",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B096HQZWWL",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07XDNWFXM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000056",
+      "gold_pid": "B081TMSZT1",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.14285714285714285,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0798M8KKD",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B006XB4RZY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0748DGDVT",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00YVRHESY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B00O6A9PKQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B09SHRTCXW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B093XYY5GR",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0BV434P9F",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00T9S8DO4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07YQRJPL4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000066",
+      "gold_pid": "B07HCWNW3X",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0BDNDJ2RW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B09B12P6YV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B08B5BSBSL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B096XJZNHR",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B08P3RDDM5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0BZ8QQCVR",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B09XRJ6MMW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B06XDPHDS2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07YBXJFST",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0BRSRG7J8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000068",
+      "gold_pid": "B09PHFQ2JF",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07QBDG52G",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BX2YDL56",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B09WJBRFKJ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B017DK1H6U",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0052YFPWM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07GY3K2FB",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0BMQTB5RL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B083M8S3JJ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B007K1Q8OY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0062Z0XYU",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000109",
+      "gold_pid": "B079GTP1K9",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B076GYN524",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B089QP7DD9",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0841MPVMV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00D3426WU",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0936DKBL1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B08NCJ337S",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07P6VVZPV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B09GKHLM6R",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B08S3J9RDW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07JFN4M25",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000128",
+      "gold_pid": "B0BRKGKT95",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B017DCQ80I",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0C6G69494",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B017DCQ5RY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0B1M8JHQ6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07PLP15BV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0BPLLWNLX",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07WZR11C5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B08S31BHGV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0B3DHDP4X",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0B618ZW3H",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000130",
+      "gold_pid": "B01N30NKD1",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B08GVCNXN9",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B01MQX14ZF",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07XPH5CCM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B091FZ3TP6",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07BLVML2Q",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0BLSSJRDR",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0B81SHKMD",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07BXGPDN8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07XP4Z162",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0BPLLWNLX",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000175",
+      "gold_pid": "B0BZR3M7M7",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.25,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01IQSH3DE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00JQ9CNRO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00UDZE4I6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B09M3RB4P9",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0B28D7BGR",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 6,
+          "pid": "B08T17FF37",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07B3RNFH6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0B18XRHQP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07XLLBSK2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B01LETWQLG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-pet-supplies-000200",
+      "gold_pid": "B08HS3KPN6",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B09GKBN8LZ",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B09FXBT6N1",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00AEU2X92",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0B87TVC35",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B09K4FX6TV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B077RYXY5P",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07ZGLNWP3",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0B2NPM75T",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 9,
+          "pid": "B003ZYF1R0",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0BS6K4TD3",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000003",
+      "gold_pid": "B005IDO5KK",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B08XQMPBWH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00W61T2EG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B08DR8SWS6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0031P91LK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0C3YZ4KJY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B093QH5445",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B000NDZ0QS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B003YHKZKQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B08CBB879B",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0B42Q7HVZ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000008",
+      "gold_pid": "B095WGYBPQ",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0027B6T6Y",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B005IR1T8C",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B06WVCLTJ7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B06VVM8J81",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B00FV6A45E",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B010N8QE9E",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B09GVNDMSC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07TDMJ8Y2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00FA8XIS8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B005452PJ0",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000016",
+      "gold_pid": "B082H3XTTV",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.1111111111111111,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0B56ZML54",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B06ZZY47F7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B01G5Y4UPK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B07DFJ5XFS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B01LEJDCVE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07ZPFG8T7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0BN6F2YHD",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07S7YK8Q6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B082H48CVK",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07SJW7ZND",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000018",
+      "gold_pid": "B0BSKL2G27",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07WF9RX4V",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07WG9W5GN",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07XRPW64V",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B07WHFCSQF",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07YT7HCDM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07HD27YZT",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07WF9RX4T",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B08HW1G93J",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07WF9TGFH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0858MYF21",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000021",
+      "gold_pid": "B08XQM23MJ",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.14285714285714285,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0B6L8L9K1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B08QGW79XG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B01I95LQW8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0BFF8CX49",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0C4D4C6L6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B083TNDMLP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0B9ZHG6PN",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 8,
+          "pid": "B098YWWFVW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07T7C2R85",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B00W50QXUO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000032",
+      "gold_pid": "B08WCBLKV2",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.16666666666666666,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B008TWZ94S",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0C4S3XY4G",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0B4P8H17C",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B008Z1LBU4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B097YPZSZ5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B071KCM11J",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B008Z1OHI2",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07NSRTPCW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00BV1OQF2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B082H4G259",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000041",
+      "gold_pid": "B07ZHWDFN7",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.25,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0BSDTH8G7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07VNH4FV4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00009B1SF",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B09G518G1V",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07DKFM3P9",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07R75FCRN",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0BK38ZXWJ",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 8,
+          "pid": "B075FTH9YK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B09X2JZC7X",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07X4FNSPW",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000042",
+      "gold_pid": "B07665CHJ6",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01C967BQS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B01LZ3810R",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B01LY43OPA",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B08GG8H6XG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B079KBTJ6Q",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0033PRKVQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B01LY451EC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B01AJNLY70",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00PU0E7M2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B09KK4QV4M",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000046",
+      "gold_pid": "B00WO0A1C6",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07M7LSZH7",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0B6GRS56H",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07DJ34MVH",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0006H5XE0",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B08KJK6GHR",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07DJ724FW",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07SZXSSN5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B01AWFKM7S",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00CFWWDWE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B00CFELU2G",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000047",
+      "gold_pid": "B07YZ9H4GR",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01CBME57S",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B076B6JTG8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B081462RJH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00Q87YP8W",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B00U39IF82",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B01637G6AG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B08ZPPRYMN",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00KZFY4LQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B01I5IPP4E",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B085LPCG4X",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000053",
+      "gold_pid": "B075B9TVZH",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01CBME57S",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07DFBP33F",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07XYZJZ9Q",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0771RV2MX",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B01G4620XS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07DFDK22F",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B08ZPHZST1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07DFBSH1Z",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B01LEJDCVE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07DFB55GD",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000063",
+      "gold_pid": "B01JGP6G5M",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00NFET46Y",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BRB2N5HV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0C2FH88QW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0BP4G56Y8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0C9FNFJM3",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B079VDPJ3Y",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0BJP38W4B",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07YD3M8Z7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0BKQYFFLB",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B079VBNF7J",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000069",
+      "gold_pid": "B088ZTJLJT",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00BUY66MG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B004GFR4X6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00BV1OQGG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B086HPGFL7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B09XDNCSV1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07XYZJZ9Q",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B082H3YJJ1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00BUY54DI",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07XZ1CT97",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B081TMMW6K",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000070",
+      "gold_pid": "B005VPREIA",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01AW1QYMO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0C2JNTBB5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B01KJEOCDW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B093CJQXXH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B075LW1KZF",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B08CVM3PDV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B017B1AI9S",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B017B1AW3K",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07JMHK2PL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B082YV8YB8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000073",
+      "gold_pid": "B00D25EW5O",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B006AQZ1LQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B004PBL3Y2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B093GLDJWY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B07TYGMPWS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B00TZZQKXW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B086S44G1T",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B073PN1BN9",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00P2SLMOS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B08LFS4X63",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07GZBT1GT",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000076",
+      "gold_pid": "B00065ARKW",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0B6GRS56H",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B084R2K69N",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07YT7HCDM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00154QBPI",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B00000IWDO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B01KJENV48",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00008MIGQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0797L4WFY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07LB6MSPZ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0BMNLH6MR",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000102",
+      "gold_pid": "B00JFUN6ZC",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B08V7S74B7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BVW59TRK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B09PMN6F6G",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B077SVYQ3Y",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B01MS67M75",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07Y1FBG8G",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07DK4NNBC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B073CCQZS1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00MYL9H8O",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0B6JVX5XJ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000110",
+      "gold_pid": "B0B4TKF7KP",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07YNYHDG7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07PPVGGN5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B004RWWN0C",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0C3NGGW4D",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B09V7GKY1C",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B09WDHG5TD",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0BM9HTHD3",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0C2DDVJHS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B075Y76RRB",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B00BUID8QO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000121",
+      "gold_pid": "B09HCVWPPT",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01D20ARXE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BG1D67R5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00XEL1PEM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00V3MQ4D6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07XRRCSQJ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07X91ZDBC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0C8LZ5H29",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B01LZ3810R",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07PTL9KKN",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B09NMNLYMX",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000123",
+      "gold_pid": "B07H4G1Y15",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.1111111111111111,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B004UCBU6M",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07CS22B4L",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0092ZAYLO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B002NPBT50",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B00CNNPNQI",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0B8GP7MNG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B08WQT7N9N",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00HLQUETS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0C4BCSYRW",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0C4BF9TMP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000127",
+      "gold_pid": "B0B5WG5CX7",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00LND6BFG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00JBJIW2E",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00JBJ0C54",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B087P37MSD",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B000MEB5LM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B00O4GLZO6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0889B92DJ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B01N3L5IAU",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00VXMY35W",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0821QK458",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000131",
+      "gold_pid": "B07ZY8WCBZ",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01N5Y2Y6R",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00I4J63WI",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0C8PC4HRL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00O4GLZO6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B089C5JK44",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B00JBJIW2E",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00EJAEUBC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B09BKDHYNL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0C6N1N69N",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07ZR211K1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000138",
+      "gold_pid": "B07SH2FX2X",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.3333333333333333,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00P2SL9FA",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00146G706",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07TYVWW24",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00P2SL9YG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B01B1UE4Q8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B000VO3HC8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07K2GL59P",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B09PH7VX5F",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 9,
+          "pid": "B002MCYVAY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B002F9NH7W",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000139",
+      "gold_pid": "B076YFJ6WG",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B099B6XHCD",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00705YXKQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07CCWBHY4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00705Y3TM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B076YKGQB9",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B00BB7ZYKM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00009YEGL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0792BRPW5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B076YNJV44",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B004THPA8W",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000146",
+      "gold_pid": "B07X9HQT1B",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B006BMA1QE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B08YP8HGLV",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B076ZSGRBM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00IJZPZSU",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B00AWJ4MJO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0170N0MVG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00QZERQJI",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07FDJRDX1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00IANTWSA",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07WJQW3Y2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000150",
+      "gold_pid": "B07HB4VLVJ",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B081TQ2G7P",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B08DRBQ1YS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B01LEJD4HG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B07XZ13KLL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B081TLK49N",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07XL9CJWC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B081TKMZ8F",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07ZPBPS56",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B082H3YJJ1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B088ZXG8SS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000163",
+      "gold_pid": "B07G9GX4B6",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B079NQ53BT",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BCTNJKFF",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B08KCYMNZ7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0BCTD5QQK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0BCTM9XVB",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B08KDFT33Y",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B08KDC7VC5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B01MEBZ449",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B01MF4LSM1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B016NY03DA",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000164",
+      "gold_pid": "B0090UY5CU",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01C5TFNPA",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B08L7NM4S6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B08NJRMV3C",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B079JTFMGT",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0C7P2BY1H",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0C7P1BZ42",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B08642C1QQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B09PM8HXZR",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0C78WHY1B",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0B5Z5ZMFW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000168",
+      "gold_pid": "B018OH2DUA",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.3333333333333333,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07X91ZDBC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B075XPWF76",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B007XVYQBI",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0C82XC86B",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B000284X6W",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B09PMDMQK2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B083W1BWPQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B079P5GSPB",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00XRDHD2K",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0C6VTB96M",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000192",
+      "gold_pid": "B01DKJIAAY",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07TXRS32D",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B09VZRKKGP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0170M7GFM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B07D5S54KF",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B004UCBU6M",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07X91ZDBC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0BM8RTHZY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0817LWQGG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0785GSH3H",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B01ASVCQOI",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-toys-and-games-000199",
+      "gold_pid": "B0B5Z5ZMFW",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00NEJ9HB2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B08L7NM4S6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0C7P2BY1H",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B079JTFMGT",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B08642C1QQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0C7P1BZ42",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B09PM8HXZR",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0C7P2HRJY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B077P7M1ZM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0C78WHY1B",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-sports-and-outdoors-000003",
+      "gold_pid": "B0C69Q6CB9",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.25,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B01N0TGRUK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00591F7M6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B09SH5GYBT",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B01LA5FCJ2",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B00J08KDTQ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B087XBTMML",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00OXPC2N6",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00NP6SXNW",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 9,
+          "pid": "B0C8K5NRS1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B097857GGY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-sports-and-outdoors-000004",
+      "gold_pid": "B09S22M73L",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B004RLNF00",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BT9JQ4LJ",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B08JRJNZQW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B07FZB48BX",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0C6353T4L",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B001FD83BE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00N9ZJXPG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00BUTN4XA",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B08TNXKL9V",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B01FG0874O",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-sports-and-outdoors-000026",
+      "gold_pid": "B07CY12RG9",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.25,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07MTH7T3W",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B08Q4JRHWV",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B07YBT5X3H",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0C5JZPM7J",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07LB6MSPZ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B00KQC0NGS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0BWLZRHBL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00HLQUETS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00D8VHIMG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B002TX6SAW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-sports-and-outdoors-000082",
+      "gold_pid": "B0002X0TRY",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B010X507KY",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B06ZZZQZH8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0B7X4SG71",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B07MYZ9HC4",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B01LYOUGUL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B005I5ML0O",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07MBBQXRZ",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 8,
+          "pid": "B071RC28QF",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07BN15BSF",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B087GRWC35",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-sports-and-outdoors-000098",
+      "gold_pid": "B00CG68O5Y",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00DQFBLGS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07JHKH5FH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B007PP3ANC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0B1RK4GVP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B082XC52Q5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B09JDKD9QM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B074JV8XJT",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B097857GGY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B000FIAUAC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0081JG2T0",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-sports-and-outdoors-000103",
+      "gold_pid": "B00X5W3O76",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B001ZTP1PY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00E3CGGOK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0091BPPR2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B01M6CHVUI",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B08RB4NJDL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B073M7793B",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0091BQ1BG",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B004NBNBNU",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07CC9ZSTJ",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0BZ655HQS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-sports-and-outdoors-000132",
+      "gold_pid": "B009AMDYVQ",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B000WY730O",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0048HG3G6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B01F9EG2E4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B00S4PSX02",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B008IBL8Y0",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0BYWSK5C6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00IDBOZ5Y",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B079K5N7KF",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B09QXK69M6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0011HVW4E",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-home-and-kitchen-000007",
+      "gold_pid": "B07YJS443G",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B086LBN179",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0BF8TKWYP",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0147LN0LS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B08ZV214N8",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07W7VPB6C",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B09DSV771J",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B09Q49TBTM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B07N9773MB",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B09B2HXGL1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07NBXD42Q",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-home-and-kitchen-000025",
+      "gold_pid": "B01N6PNJ1T",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.25,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00EHL35QO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07JN8SXC5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0015RJHOC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B08L56RJ1R",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B082F1TTLF",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0BPC11XG1",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B073761KD4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00E6WNZXC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07376L9FC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07791CDMC",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-home-and-kitchen-000043",
+      "gold_pid": "B00VETN7M4",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.3333333333333333,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B00IWPY8B2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B0182IR9BY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00IR77HOK",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 4,
+          "pid": "B01NCJ8GC2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B07NYV9JXK",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0BT9F15GY",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B0BTJY9RG7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0BHVB2TT6",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 9,
+          "pid": "B09NM6GMML",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0B85PWWZH",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-home-and-kitchen-000073",
+      "gold_pid": "B00FGKD2WW",
+      "graded_recall@10": 0.0,
+      "graded_mrr@10": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B005O15EHE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B097JLHFNW",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B087TW738K",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B09HB3XGP5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0B1S8KPT5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07THMLB23",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B00QMWB5FY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B003A4JFUE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B09JTGRGC6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0009PUQLE",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-home-and-kitchen-000112",
+      "gold_pid": "B00JL7O0XQ",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.5,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B08694C8TX",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B00OVLCFO8",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00MVT3P3M",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B09XMHSYM5",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0BLG8RGMY",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B088DB19RM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B07HFQTJK4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B00MW5TOJ4",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B07PSB3P5C",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 10,
+          "pid": "B07X1VL29G",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-home-and-kitchen-000136",
+      "gold_pid": "B01GCRZ7SO",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 0.1,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B07PN523C2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07FDKNF4Y",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B08VHQ2PWK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B08XYD548C",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B01ARX0J5A",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B07CMKX3C7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B000SOPXBO",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B08H5DC25C",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B002KGWF00",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B09SHGMJ12",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-home-and-kitchen-000152",
+      "gold_pid": "B09TR7PJSW",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0BK15WL8J",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B07HSKTYZ9",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 3,
+          "pid": "B0BG38PJ4V",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B08RY88D99",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 5,
+          "pid": "B0BKRD6HHS",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 6,
+          "pid": "B0C4FWD4DB",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 7,
+          "pid": "B08CSLGHVK",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B007TASC04",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B00AWDSI1I",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 10,
+          "pid": "B0791WCNR2",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        }
+      ]
+    },
+    {
+      "qid": "public-test-home-and-kitchen-000168",
+      "gold_pid": "B01MG8B8IM",
+      "graded_recall@10": 1,
+      "graded_mrr@10": 1.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "pid": "B0BJPMB59W",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 2,
+          "pid": "B06Y1JYKYM",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 3,
+          "pid": "B00004W4UL",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 4,
+          "pid": "B0000CFP0F",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 5,
+          "pid": "B073ZGGCWX",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        },
+        {
+          "rank": 6,
+          "pid": "B000I0DV6W",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 7,
+          "pid": "B09KK7N1H6",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 8,
+          "pid": "B0773H8TF7",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 9,
+          "pid": "B09J5CXH78",
+          "gain": 0.0,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": false}"
+        },
+        {
+          "rank": 10,
+          "pid": "B01B6RRVZ2",
+          "gain": 1,
+          "source": "llm",
+          "parse_ok": true,
+          "raw_output": "{\"relevant\": true}"
+        }
+      ]
+    }
+  ]
+}

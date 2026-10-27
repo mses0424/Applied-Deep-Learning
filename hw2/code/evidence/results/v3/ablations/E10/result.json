@@ -1,0 +1,120 @@
+{
+  "id": "E10",
+  "name": "V2-M3 LoRA, three hard + one random",
+  "parent": "E08",
+  "config": {
+    "strategy": "hybrid_rerank",
+    "dense_model": "models/bge-large-en-v1.5",
+    "reranker_model": "models/v3-reranker-hard",
+    "device": "cuda:0",
+    "encode_batch_size": 8,
+    "rerank_batch_size": 4,
+    "dense_max_length": 384,
+    "rerank_max_length": 384,
+    "query_max_length": 128,
+    "retrieve_k": 160,
+    "rerank_k": 80,
+    "rrf_k": 60,
+    "cache_dir": "cache/retrieval",
+    "seed": 2026,
+    "document_views": 2,
+    "tail_words": 180,
+    "recent_query_weight": 0.5,
+    "lexical_weight": 1.0,
+    "dense_weight": 1.5,
+    "bm25_bigrams": true,
+    "turn_weights": true,
+    "title_boost": 3.0
+  },
+  "provenance": {
+    "config": {
+      "strategy": "hybrid_rerank",
+      "dense_model": "models/bge-large-en-v1.5",
+      "reranker_model": "models/v3-reranker-hard",
+      "device": "cuda:0",
+      "encode_batch_size": 8,
+      "rerank_batch_size": 4,
+      "dense_max_length": 384,
+      "rerank_max_length": 384,
+      "query_max_length": 128,
+      "retrieve_k": 160,
+      "rerank_k": 80,
+      "rrf_k": 60,
+      "cache_dir": "cache/retrieval",
+      "seed": 2026,
+      "document_views": 2,
+      "tail_words": 180,
+      "recent_query_weight": 0.5,
+      "lexical_weight": 1.0,
+      "dense_weight": 1.5,
+      "bm25_bigrams": true,
+      "turn_weights": true,
+      "title_boost": 3.0
+    },
+    "manifest_sha256": "a128b41bca241ccff1720c06800b3d6e8eb79e1907404dadca89c5cead710f32",
+    "code": {
+      "retrieval_utils.py": "6cac78e4421c4e970a4b7b301716b8e12fc9c00171e48cb8e9347cf63a8434a9",
+      "scripts/run_ablations.py": "acc1d326cb0189ebc2c041d35e8310f926f66daead3d02057183376e68b2ea72",
+      "scripts/v3_experiments.py": "ebc46b61f4522e7e9b35108b5f77426322ae5f9a5ae817a640ebfe9e9f595a4b",
+      "scripts/common.py": "2f0ac47565ce8e08422a07b48a313f2eb5587c736af43d2189a4d78ae3d52b57",
+      "eval_utils.py": "47b1dd2dee9b6c9769d4952dc32712ac8e25f0cb57665ceb2247880d43e32e0b"
+    },
+    "models": {
+      "dense": "104e0969992fe4094b56dd78f6515d78a62197889977b0886e78a09efd7e0aaa",
+      "reranker": "1b1d2b8217d42d01d0d2f8e92dc39ffd1aee0a895fc6c4cf7b9999048b59947c"
+    }
+  },
+  "predictions_sha256": "6a255fd996f57aa3773c958f59690da317eb8d3cd2581d25fc13588faacbf89c",
+  "metrics": {
+    "queries": 487,
+    "exact_recall@10": 0.731006160164271,
+    "exact_mrr@10": 0.6259908412372479
+  },
+  "candidate_metrics": {
+    "queries": 487,
+    "exact_recall@80": 0.7618069815195072,
+    "exact_mrr@80": 0.3840151026866718
+  },
+  "runtime": {
+    "config": {
+      "strategy": "hybrid_rerank",
+      "dense_model": "models/bge-large-en-v1.5",
+      "reranker_model": "models/v3-reranker-hard",
+      "device": "cuda:0",
+      "encode_batch_size": 8,
+      "rerank_batch_size": 4,
+      "dense_max_length": 384,
+      "rerank_max_length": 384,
+      "query_max_length": 128,
+      "retrieve_k": 160,
+      "rerank_k": 80,
+      "rrf_k": 60,
+      "cache_dir": "cache/retrieval",
+      "seed": 2026,
+      "document_views": 2,
+      "tail_words": 180,
+      "recent_query_weight": 0.5,
+      "lexical_weight": 1.0,
+      "dense_weight": 1.5,
+      "bm25_bigrams": true,
+      "turn_weights": true,
+      "title_boost": 3.0
+    },
+    "strategy": "hybrid_rerank",
+    "query_count": 487,
+    "product_count": 50000,
+    "cache_hit": true,
+    "model_fingerprints": {
+      "dense": "104e0969992fe4094b56dd78f6515d78a62197889977b0886e78a09efd7e0aaa",
+      "reranker": "1b1d2b8217d42d01d0d2f8e92dc39ffd1aee0a895fc6c4cf7b9999048b59947c"
+    },
+    "timings": {
+      "lexical_seconds": 27.691674031782895,
+      "dense_and_fusion_seconds": 12.49636256811209,
+      "rerank_seconds": 291.13666549604386,
+      "peak_cuda_allocated_gib": 1.0999627113342285,
+      "peak_cuda_reserved_gib": 1.1328125,
+      "total_seconds": 331.33724964479916
+    }
+  }
+}

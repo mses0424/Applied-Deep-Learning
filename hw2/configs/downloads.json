@@ -1,0 +1,46 @@
+{
+  "models": [
+    {
+      "repo_id": "intfloat/e5-base-v2",
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+      "destination": "models/e5-base-v2"
+    },
+    {
+      "repo_id": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "destination": "models/bge-reranker-v2-m3"
+    }
+  ],
+  "trained_files": [
+    {
+      "url": "https://drive.usercontent.google.com/download?export=download&authuser=0&confirm=t&id=1Pf90mxvA3GNJ5747kpsJ5PBeqS-_oFf6",
+      "destination": "models/selected-listwise-reranker/config.json",
+      "sha256": "2f5599b5d9b4f068968f0334e4d666676e1c18e53020749694d299b63fbb71eb"
+    },
+    {
+      "url": "https://drive.usercontent.google.com/download?export=download&authuser=0&confirm=t&id=1VqY71aZ3x_IoGdzpyFWs6H5fb1h2iuIO",
+      "destination": "models/selected-listwise-reranker/model.safetensors",
+      "sha256": "335fc04c773e21fd048e24e9412e8cb348cb0a9900f037cdbbcbe774456a05b5"
+    },
+    {
+      "url": "https://drive.usercontent.google.com/download?export=download&authuser=0&confirm=t&id=1O1xL52TNU15MZ4AXLKIxRInzBnXWJqbm",
+      "destination": "models/selected-listwise-reranker/sentencepiece.bpe.model",
+      "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+    },
+    {
+      "url": "https://drive.usercontent.google.com/download?export=download&authuser=0&confirm=t&id=1PidTBYN728l8Nl6wgIrmtJzJeIQXw3R2",
+      "destination": "models/selected-listwise-reranker/special_tokens_map.json",
+      "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+    },
+    {
+      "url": "https://drive.usercontent.google.com/download?export=download&authuser=0&confirm=t&id=1fyzPe3DNB9G7pCsjKsdjEucRCulPmW38",
+      "destination": "models/selected-listwise-reranker/tokenizer.json",
+      "sha256": "5d704acb9b49c8315d60393b34ec989aa0d6c2e3e0682f6b5cf6ab79649ca685"
+    },
+    {
+      "url": "https://drive.usercontent.google.com/download?export=download&authuser=0&confirm=t&id=1NUXGzKM_SinkiWlJT_blwy1mNZiwAHBr",
+      "destination": "models/selected-listwise-reranker/tokenizer_config.json",
+      "sha256": "b87c8703482b0300d3da30e201519aa641f6a450f5eb5bf1e624afbf70c74d80"
+    }
+  ]
+}

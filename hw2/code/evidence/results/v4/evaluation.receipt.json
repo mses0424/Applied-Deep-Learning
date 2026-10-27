@@ -1,0 +1,10 @@
+{
+  "evaluation_sha256": "13039eaad10b0762fa5816284f4be86cbe36b481df0fb9e1b900824c6699d1d8",
+  "predictions_sha256": "413ecf998983d1e5a6c394915d9d9bfa5886b9674b7c031355578a0353b077f4",
+  "dialogues_sha256": "575db46b17c868edf0e9dd486c2563373e6453334ed35234a6ec946f9be42e04",
+  "products_sha256": "ee19fd31e2b050ff95f7840769cc6aa6973682337afeb6113bcb8154fa641de1",
+  "evaluate_py_sha256": "0f640c6b126594d75d39baa1c3b7447185fda9010a5e8486a88e29198b23acbf",
+  "smoke": 0,
+  "device": "cuda:0",
+  "precision": "official unchanged BF16"
+}

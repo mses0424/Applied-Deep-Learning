@@ -1,0 +1,66 @@
+{
+  "selected": "R5_e5_user",
+  "rule": "Train-validation Recall@128, then MRR@10, then time; same budget",
+  "results": {
+    "R1_lexical": {
+      "coverage": {
+        "queries": 487,
+        "exact_recall@128": 0.7987679671457906,
+        "exact_mrr@128": 0.4427450245215035
+      },
+      "metrics": {
+        "queries": 487,
+        "exact_recall@10": 0.6509240246406571,
+        "exact_mrr@10": 0.43619748378475276
+      }
+    },
+    "R2_weighted_rrf": {
+      "coverage": {
+        "queries": 487,
+        "exact_recall@128": 0.8275154004106776,
+        "exact_mrr@128": 0.4430435273268855
+      },
+      "metrics": {
+        "queries": 487,
+        "exact_recall@10": 0.6509240246406571,
+        "exact_mrr@10": 0.43619748378475276
+      }
+    },
+    "R3_bge_union": {
+      "coverage": {
+        "queries": 487,
+        "exact_recall@128": 0.837782340862423,
+        "exact_mrr@128": 0.4431316053385845
+      },
+      "metrics": {
+        "queries": 487,
+        "exact_recall@10": 0.6509240246406571,
+        "exact_mrr@10": 0.43619748378475276
+      }
+    },
+    "R4_e5_union": {
+      "coverage": {
+        "queries": 487,
+        "exact_recall@128": 0.8357289527720739,
+        "exact_mrr@128": 0.4628371613122215
+      },
+      "metrics": {
+        "queries": 487,
+        "exact_recall@10": 0.6570841889117043,
+        "exact_mrr@10": 0.4562913529545973
+      }
+    },
+    "R5_e5_user": {
+      "coverage": {
+        "queries": 487,
+        "exact_recall@128": 0.837782340862423,
+        "exact_mrr@128": 0.4544341045437947
+      },
+      "metrics": {
+        "queries": 487,
+        "exact_recall@10": 0.6570841889117043,
+        "exact_mrr@10": 0.44763045533066065
+      }
+    }
+  }
+}

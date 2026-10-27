@@ -1,0 +1,50 @@
+{
+  "config": {
+    "strategy": "hybrid_rerank",
+    "dense_model": "models/e5-base-v2",
+    "reranker_model": "models/v3-reranker-hard",
+    "device": "cuda:0",
+    "encode_batch_size": 8,
+    "rerank_batch_size": 4,
+    "dense_max_length": 512,
+    "rerank_max_length": 512,
+    "query_max_length": 192,
+    "retrieve_k": 400,
+    "rerank_k": 128,
+    "rrf_k": 60,
+    "cache_dir": "cache/retrieval",
+    "seed": 2026,
+    "document_views": 1,
+    "tail_words": 180,
+    "recent_query_weight": 0.0,
+    "lexical_weight": 3.0,
+    "dense_weight": 1.0,
+    "bm25_bigrams": true,
+    "turn_weights": true,
+    "title_boost": 3.0,
+    "candidate_policy": "protected_union",
+    "lexical_quota": 96,
+    "dense_quota": 32,
+    "rerank_blend": 0.0,
+    "dense_pooling": "mean",
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: ",
+    "dense_query_mode": "user"
+  },
+  "strategy": "hybrid_rerank",
+  "query_count": 487,
+  "product_count": 50000,
+  "cache_hit": true,
+  "model_fingerprints": {
+    "dense": "d272ec1ec967c7c26bf3202c960b9477905e8565545c738a821ac4f4d3d4d33b",
+    "reranker": "1b1d2b8217d42d01d0d2f8e92dc39ffd1aee0a895fc6c4cf7b9999048b59947c"
+  },
+  "timings": {
+    "lexical_seconds": 27.096199829131365,
+    "dense_and_fusion_seconds": 3.9382180268876255,
+    "rerank_seconds": 554.0517946018372,
+    "peak_cuda_allocated_gib": 1.1105480194091797,
+    "peak_cuda_reserved_gib": 1.140625,
+    "total_seconds": 585.1157954651862
+  }
+}

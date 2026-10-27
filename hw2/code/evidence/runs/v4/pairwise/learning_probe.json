@@ -1,0 +1,837 @@
+{
+  "source": "train only; deterministic distinct-target sample; not used for selection",
+  "groups": [
+    {
+      "qid": "train-home-and-kitchen-000352",
+      "positive_and_negatives": [
+        "B0BFVKS78D",
+        "B085WKBNRJ",
+        "B01HEG19NO",
+        "B00TM6VW32",
+        "B009MRGZ38",
+        "B09H3WP1XN",
+        "B0BSC18J1C"
+      ],
+      "swapped_query_qid": "train-toys-and-games-000489"
+    },
+    {
+      "qid": "train-toys-and-games-000489",
+      "positive_and_negatives": [
+        "B07YDF9FSD",
+        "B07KVTJTHG",
+        "B08NJSFPWS",
+        "B07S24FWK6",
+        "B087H2LWWZ",
+        "B00009B1SF",
+        "B081MZMC54"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000245"
+    },
+    {
+      "qid": "train-pet-supplies-000245",
+      "positive_and_negatives": [
+        "B0C6LWH68F",
+        "B00JVHSPHI",
+        "B08YNWNRN1",
+        "B07MZJGK5L",
+        "B08PFQTMW7",
+        "B08LPXB1VS",
+        "B005XVCR4I"
+      ],
+      "swapped_query_qid": "beauty-train-004494"
+    },
+    {
+      "qid": "beauty-train-004494",
+      "positive_and_negatives": [
+        "B00194Q7BC",
+        "B0BQXJ9V1W",
+        "B00KNJOLSA",
+        "B07Q568NRF",
+        "B09S97KX2Z",
+        "B00GYB17TC",
+        "B07MYZ9HC4"
+      ],
+      "swapped_query_qid": "train-toys-and-games-000303"
+    },
+    {
+      "qid": "train-toys-and-games-000303",
+      "positive_and_negatives": [
+        "B00IVFCGIA",
+        "B085B1YYY5",
+        "B085B1T8GR",
+        "B06XFQG2GN",
+        "B008410BOW",
+        "B07Q2N15FT",
+        "B09JN91HWS"
+      ],
+      "swapped_query_qid": "beauty-train-002360"
+    },
+    {
+      "qid": "beauty-train-002360",
+      "positive_and_negatives": [
+        "B003WHF148",
+        "B01HEV2ZW8",
+        "B005M31X88",
+        "B09H3CGJS3",
+        "B0000632EN",
+        "B07WTJTJ33",
+        "B0862YMCDX"
+      ],
+      "swapped_query_qid": "beauty-train-003027"
+    },
+    {
+      "qid": "beauty-train-003027",
+      "positive_and_negatives": [
+        "B00AE07BMQ",
+        "B0C34498SH",
+        "B0CB1W2W2Y",
+        "B08WSL13BJ",
+        "B087G1GN2K",
+        "B07RSBTZGY",
+        "B007SIR08C"
+      ],
+      "swapped_query_qid": "train-beauty-official-000003"
+    },
+    {
+      "qid": "train-beauty-official-000003",
+      "positive_and_negatives": [
+        "B07T99MR6B",
+        "B09GJCYTJ6",
+        "B0BQG27WR5",
+        "B08683QMRQ",
+        "B00NTPZS4Q",
+        "B007XPB3XS",
+        "B003FXE6VI"
+      ],
+      "swapped_query_qid": "beauty-train-001078"
+    },
+    {
+      "qid": "beauty-train-001078",
+      "positive_and_negatives": [
+        "B003E3IOPS",
+        "B08J5MJ312",
+        "B003XUMQ7E",
+        "B071FJFKNZ",
+        "B0C1GKRFRJ",
+        "B00543733U",
+        "B0C72PY4PG"
+      ],
+      "swapped_query_qid": "beauty-train-004117"
+    },
+    {
+      "qid": "beauty-train-004117",
+      "positive_and_negatives": [
+        "B001JQLNMS",
+        "B00KKKW03U",
+        "B0C46SPKJ9",
+        "B002JL1Y6C",
+        "B09KPH9SLP",
+        "B00F4ZUU8I",
+        "B0C15HNP4Z"
+      ],
+      "swapped_query_qid": "train-sports-and-outdoors-000006"
+    },
+    {
+      "qid": "train-sports-and-outdoors-000006",
+      "positive_and_negatives": [
+        "B0792H597X",
+        "B01LG5GDZ8",
+        "B07G3BW24T",
+        "B09QLNYQ2S",
+        "B09MZJQDFZ",
+        "B081Q751NG",
+        "B07FKBGHQB"
+      ],
+      "swapped_query_qid": "beauty-train-001206"
+    },
+    {
+      "qid": "beauty-train-001206",
+      "positive_and_negatives": [
+        "B003VKR018",
+        "B00MOZLHEC",
+        "B000065DJY",
+        "B07JZMFYSY",
+        "B00FXXTEVA",
+        "B08KQ43464",
+        "B08HP4LG43"
+      ],
+      "swapped_query_qid": "train-sports-and-outdoors-000233"
+    },
+    {
+      "qid": "train-sports-and-outdoors-000233",
+      "positive_and_negatives": [
+        "B0779WC2T9",
+        "B0B1M9SG13",
+        "B07RRF7RZ5",
+        "B07BN26G59",
+        "B07TVGWBD6",
+        "B00BPRLGSW",
+        "B000GDF48O"
+      ],
+      "swapped_query_qid": "train-sports-and-outdoors-000238"
+    },
+    {
+      "qid": "train-sports-and-outdoors-000238",
+      "positive_and_negatives": [
+        "B001F1ZPNA",
+        "B003DKK7MA",
+        "B07Q9YT17F",
+        "B004RHPSMM",
+        "B08GNPCGCP",
+        "B07SDDJFYD",
+        "B014ISPNYM"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000331"
+    },
+    {
+      "qid": "train-pet-supplies-000331",
+      "positive_and_negatives": [
+        "B095P8PXDZ",
+        "B0B1MZVLQB",
+        "B07PWLZ1HL",
+        "B07C73WR5L",
+        "B0B81N9B5W",
+        "B0CBMR4R8B",
+        "B004MKFY3W"
+      ],
+      "swapped_query_qid": "beauty-train-002979"
+    },
+    {
+      "qid": "beauty-train-002979",
+      "positive_and_negatives": [
+        "B00A0J084Y",
+        "B0B6QNC9XY",
+        "B00IX42NB4",
+        "B00CHTXDXS",
+        "B07T8F3VS9",
+        "B00604MSSC",
+        "B00G7S424O"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000461"
+    },
+    {
+      "qid": "train-pet-supplies-000461",
+      "positive_and_negatives": [
+        "B092SQ3751",
+        "B08HP1GJ5B",
+        "B001J8H1E0",
+        "B0068MYE5Q",
+        "B0002ARFRE",
+        "B07BSW7VJD",
+        "B004GNMOSS"
+      ],
+      "swapped_query_qid": "train-toys-and-games-000282"
+    },
+    {
+      "qid": "train-toys-and-games-000282",
+      "positive_and_negatives": [
+        "B09H71J33S",
+        "B0761JXWH4",
+        "B0892DZ3L8",
+        "B01NACJ56Q",
+        "B00X9TMXPO",
+        "B08CW6TLFM",
+        "B073FF93WG"
+      ],
+      "swapped_query_qid": "beauty-train-002264"
+    },
+    {
+      "qid": "beauty-train-002264",
+      "positive_and_negatives": [
+        "B004RC4FSK",
+        "B001DKK7Y0",
+        "B074T89N1P",
+        "B00479FP4Q",
+        "B00QEDDY7S",
+        "B004V0SZNO",
+        "B09H383LG8"
+      ],
+      "swapped_query_qid": "beauty-train-000908"
+    },
+    {
+      "qid": "beauty-train-000908",
+      "positive_and_negatives": [
+        "B00AEM0YH8",
+        "B008JUBEBW",
+        "B078BC2M8S",
+        "B0BHF6PPLW",
+        "B0B9WC9NMP",
+        "B004TSFBJO",
+        "B00428LJ0G"
+      ],
+      "swapped_query_qid": "train-home-and-kitchen-000447"
+    },
+    {
+      "qid": "train-home-and-kitchen-000447",
+      "positive_and_negatives": [
+        "B013EFKOVM",
+        "B07D5H9YFN",
+        "B097XVCSMQ",
+        "B07NYPVNBX",
+        "B07BC355FX",
+        "B0089JVDPK",
+        "B0BWVDHK82"
+      ],
+      "swapped_query_qid": "beauty-train-001657"
+    },
+    {
+      "qid": "beauty-train-001657",
+      "positive_and_negatives": [
+        "B009WKOOBA",
+        "B002MZ8BK2",
+        "B005N30FQ8",
+        "B0921RTKB1",
+        "B0BVZ8H82W",
+        "B074N3GY25",
+        "B00622HE54"
+      ],
+      "swapped_query_qid": "beauty-train-004651"
+    },
+    {
+      "qid": "beauty-train-004651",
+      "positive_and_negatives": [
+        "B008VSBREG",
+        "B07ZNQWLBX",
+        "B07XPT9X9L",
+        "B088Q1B9R8",
+        "B008RS4LO8",
+        "B08YYCXXHG",
+        "B092QV9331"
+      ],
+      "swapped_query_qid": "beauty-train-003115"
+    },
+    {
+      "qid": "beauty-train-003115",
+      "positive_and_negatives": [
+        "B00852F7YY",
+        "B00J0VD3ZY",
+        "B079JB8TXZ",
+        "B00B83G0OS",
+        "B0C66XXN1M",
+        "B08BMWR8LK",
+        "B0BJ11NHFF"
+      ],
+      "swapped_query_qid": "train-home-and-kitchen-000267"
+    },
+    {
+      "qid": "train-home-and-kitchen-000267",
+      "positive_and_negatives": [
+        "B0BNH4WWQF",
+        "B086MGYL9Q",
+        "B093HYLJKZ",
+        "B07QS5D94K",
+        "B000KKN0TS",
+        "B0BHSY9F2K",
+        "B07L13KFX4"
+      ],
+      "swapped_query_qid": "beauty-train-001766"
+    },
+    {
+      "qid": "beauty-train-001766",
+      "positive_and_negatives": [
+        "B000K9NZJE",
+        "B01DN9ULJO",
+        "B0988HVZM8",
+        "B01MZ8CM82",
+        "B08KJKWPZC",
+        "B01GRXNUU0",
+        "B0BZTGC1X7"
+      ],
+      "swapped_query_qid": "train-home-and-kitchen-000099"
+    },
+    {
+      "qid": "train-home-and-kitchen-000099",
+      "positive_and_negatives": [
+        "B07Y7N9NNQ",
+        "B07QXD2KQC",
+        "B0C3T3YT4V",
+        "B099XSN42M",
+        "B0BPGB6SZJ",
+        "B082Z5L4WY",
+        "B000P9ISSC"
+      ],
+      "swapped_query_qid": "train-toys-and-games-000198"
+    },
+    {
+      "qid": "train-toys-and-games-000198",
+      "positive_and_negatives": [
+        "B00FXXBA1W",
+        "B0BXW14SRD",
+        "B01LZYMH1R",
+        "B00MGQTHNM",
+        "B07QQ4NSMJ",
+        "B08GG4Y6YT",
+        "B0BZX4JW9K"
+      ],
+      "swapped_query_qid": "beauty-train-003611"
+    },
+    {
+      "qid": "beauty-train-003611",
+      "positive_and_negatives": [
+        "B0000ZLEX2",
+        "B000QAVNA0",
+        "B007L5P7YQ",
+        "B0000ZLEFU",
+        "B06Y5XPBZZ",
+        "B07Y47249K",
+        "B00AE078TM"
+      ],
+      "swapped_query_qid": "beauty-train-003855"
+    },
+    {
+      "qid": "beauty-train-003855",
+      "positive_and_negatives": [
+        "B005OTEH3S",
+        "B00CBHZPNW",
+        "B00CM6Q6X0",
+        "B08P4MMGVZ",
+        "B00JRGQ09S",
+        "B00163JVJQ",
+        "B09BJYNGL8"
+      ],
+      "swapped_query_qid": "beauty-train-004025"
+    },
+    {
+      "qid": "beauty-train-004025",
+      "positive_and_negatives": [
+        "B000143K2A",
+        "B0B4THXL8Q",
+        "B000GCWD6G",
+        "B003R0LLXU",
+        "B002R2C5UW",
+        "B00AXZ027S",
+        "B00JYRAQ4A"
+      ],
+      "swapped_query_qid": "beauty-train-000817"
+    },
+    {
+      "qid": "beauty-train-000817",
+      "positive_and_negatives": [
+        "B00AO4EL34",
+        "B008AGWMEI",
+        "B001EJOPPM",
+        "B0C1HFSTQF",
+        "B000NSIGE6",
+        "B003YMJJSK",
+        "B00DE4HSU4"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000476"
+    },
+    {
+      "qid": "train-pet-supplies-000476",
+      "positive_and_negatives": [
+        "B0009587V0",
+        "B0BG6NNKLR",
+        "B09P49NQWB",
+        "B09KLY3987",
+        "B09NN4H4GG",
+        "B083RVXQWF",
+        "B07FDHL4QR"
+      ],
+      "swapped_query_qid": "train-toys-and-games-000172"
+    },
+    {
+      "qid": "train-toys-and-games-000172",
+      "positive_and_negatives": [
+        "B01NBIY3PJ",
+        "B0BVC18Q8C",
+        "B07F3BWGZR",
+        "B07BC6SG83",
+        "B07GHTNZQF",
+        "B079KBC2CX",
+        "B08V1GD1L9"
+      ],
+      "swapped_query_qid": "train-home-and-kitchen-000074"
+    },
+    {
+      "qid": "train-home-and-kitchen-000074",
+      "positive_and_negatives": [
+        "B01LX1OHW9",
+        "B084WBSBYT",
+        "B01N5U0YE1",
+        "B0BDM2K7BJ",
+        "B07PP9P5VJ",
+        "B0C7LQBLN7",
+        "B0030GYDTU"
+      ],
+      "swapped_query_qid": "beauty-train-003459"
+    },
+    {
+      "qid": "beauty-train-003459",
+      "positive_and_negatives": [
+        "B0067F28ZW",
+        "B0C2CHGZQS",
+        "B09Q3VV18X",
+        "B00NT8DMZU",
+        "B07GWJRPTS",
+        "B08FBBF65T",
+        "B072BMFXYN"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000345"
+    },
+    {
+      "qid": "train-pet-supplies-000345",
+      "positive_and_negatives": [
+        "B07QDKX1LV",
+        "B09T1H3D5G",
+        "B072VP2WXD",
+        "B09NP6PBLB",
+        "B08XY5W62Q",
+        "B082VXHDNG",
+        "B094G34X1W"
+      ],
+      "swapped_query_qid": "beauty-train-003560"
+    },
+    {
+      "qid": "beauty-train-003560",
+      "positive_and_negatives": [
+        "B005J4Y0O4",
+        "B00027DMJW",
+        "B00FJE4K94",
+        "B00CIX1SLW",
+        "B007S2CJY8",
+        "B001EDHAU0",
+        "B000GRENPA"
+      ],
+      "swapped_query_qid": "train-beauty-official-000062"
+    },
+    {
+      "qid": "train-beauty-official-000062",
+      "positive_and_negatives": [
+        "B0B2WCNZ59",
+        "B09Z5SFWPF",
+        "B01IVRSGT0",
+        "B07DD3RN5V",
+        "B094NVSPYC",
+        "B07YP6HCBZ",
+        "B08WJSP71M"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000187"
+    },
+    {
+      "qid": "train-pet-supplies-000187",
+      "positive_and_negatives": [
+        "B00V89SJPA",
+        "B07JMJLGQ8",
+        "B07ZJFNYKR",
+        "B00WL6L1U4",
+        "B07T7P3BZX",
+        "B01FHJVK3E",
+        "B07CL37NZ7"
+      ],
+      "swapped_query_qid": "train-toys-and-games-000299"
+    },
+    {
+      "qid": "train-toys-and-games-000299",
+      "positive_and_negatives": [
+        "B07LGF5PX4",
+        "B076Z39JC3",
+        "B01JCKGCWS",
+        "B084BL6GH5",
+        "B0C9CPFFXW",
+        "B0104NQM2M",
+        "B0911RN7KT"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000135"
+    },
+    {
+      "qid": "train-pet-supplies-000135",
+      "positive_and_negatives": [
+        "B09YT52L4P",
+        "B01N9QTLY1",
+        "B07YC5XD14",
+        "B09DRHYTZJ",
+        "B0BKTHM7RC",
+        "B09XMW14MS",
+        "B07JFN4M25"
+      ],
+      "swapped_query_qid": "beauty-train-002802"
+    },
+    {
+      "qid": "beauty-train-002802",
+      "positive_and_negatives": [
+        "B008V1I2MI",
+        "B0974MX438",
+        "B0BVZRV6GK",
+        "B007O02C6Y",
+        "B0089E4KPK",
+        "B009NCM6JY",
+        "B079FYSSMF"
+      ],
+      "swapped_query_qid": "train-beauty-official-000327"
+    },
+    {
+      "qid": "train-beauty-official-000327",
+      "positive_and_negatives": [
+        "B07Q5KXYMZ",
+        "B012BH58EW",
+        "B0BFDZGD1W",
+        "B07N4M2GDY",
+        "B0BM8QF2NS",
+        "B09Z77C3Y3",
+        "B07C4J2T4C"
+      ],
+      "swapped_query_qid": "beauty-train-003282"
+    },
+    {
+      "qid": "beauty-train-003282",
+      "positive_and_negatives": [
+        "B000O3BDHW",
+        "B000O1DHL4",
+        "B01CW9UUQK",
+        "B0090ELFRO",
+        "B0034JLST6",
+        "B005PYWS60",
+        "B00H9M1OF2"
+      ],
+      "swapped_query_qid": "train-toys-and-games-000517"
+    },
+    {
+      "qid": "train-toys-and-games-000517",
+      "positive_and_negatives": [
+        "B004VR7PPG",
+        "B004DJEYK6",
+        "B07X8Z25CQ",
+        "B08F5F65LQ",
+        "B00NW8PPO8",
+        "B08DJMG41Y",
+        "B004A7X8YE"
+      ],
+      "swapped_query_qid": "train-sports-and-outdoors-000136"
+    },
+    {
+      "qid": "train-sports-and-outdoors-000136",
+      "positive_and_negatives": [
+        "B0B8S566QR",
+        "B000GOHE0Y",
+        "B0B8NRTQ7N",
+        "B0BTDLFXSL",
+        "B00XHD9BHA",
+        "B07L6V3633",
+        "B075PX9QNK"
+      ],
+      "swapped_query_qid": "train-sports-and-outdoors-000286"
+    },
+    {
+      "qid": "train-sports-and-outdoors-000286",
+      "positive_and_negatives": [
+        "B079592C58",
+        "B01MQCHQHD",
+        "B07RK69HNZ",
+        "B01GNLVXHI",
+        "B077HTC36G",
+        "B08FZZHMS4",
+        "B07FYVTHBV"
+      ],
+      "swapped_query_qid": "beauty-train-001241"
+    },
+    {
+      "qid": "beauty-train-001241",
+      "positive_and_negatives": [
+        "B0000C4COV",
+        "B0041PFUV4",
+        "B076DKWD2R",
+        "B0BNQY271Z",
+        "B098CY2DNC",
+        "B0C5X9463X",
+        "B001UHSVOY"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000462"
+    },
+    {
+      "qid": "train-pet-supplies-000462",
+      "positive_and_negatives": [
+        "B0B48KQB9L",
+        "B0C4Z4H3DT",
+        "B0002DIRPU",
+        "B07RGXCRPM",
+        "B002LL32RY",
+        "B07TBJRRJG",
+        "B000OYNCES"
+      ],
+      "swapped_query_qid": "train-sports-and-outdoors-000124"
+    },
+    {
+      "qid": "train-sports-and-outdoors-000124",
+      "positive_and_negatives": [
+        "B0C4V6TLV9",
+        "B09MDPNBYB",
+        "B09XHSY41K",
+        "B0C5WFZZL8",
+        "B0C65DRWDS",
+        "B0849Z94P3",
+        "B07Z64HK15"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000169"
+    },
+    {
+      "qid": "train-pet-supplies-000169",
+      "positive_and_negatives": [
+        "B07BL2NC7F",
+        "B0076D1YF4",
+        "B0BN4T3DS4",
+        "B09JJHXSKK",
+        "B08XW8QD7K",
+        "B005BPZG9O",
+        "B07PBCYKHB"
+      ],
+      "swapped_query_qid": "train-sports-and-outdoors-000513"
+    },
+    {
+      "qid": "train-sports-and-outdoors-000513",
+      "positive_and_negatives": [
+        "B00S6F4ODU",
+        "B01M5JKHP1",
+        "B0999744M9",
+        "B00K5U78DC",
+        "B00F73BO7S",
+        "B000AR7AKG",
+        "B07DJPC8JB"
+      ],
+      "swapped_query_qid": "train-sports-and-outdoors-000318"
+    },
+    {
+      "qid": "train-sports-and-outdoors-000318",
+      "positive_and_negatives": [
+        "B077QSV2NV",
+        "B0758WC1YR",
+        "B01N638AQK",
+        "B073WJ76XC",
+        "B002SW4856",
+        "B00P1OG4ZA",
+        "B01EMQEE1S"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000412"
+    },
+    {
+      "qid": "train-pet-supplies-000412",
+      "positive_and_negatives": [
+        "B078F16JHF",
+        "B0C62161L4",
+        "B077N4D8TR",
+        "B0117PHGP8",
+        "B008VUP53I",
+        "B003FLLZY6",
+        "B01N4RA0VO"
+      ],
+      "swapped_query_qid": "beauty-train-001209"
+    },
+    {
+      "qid": "beauty-train-001209",
+      "positive_and_negatives": [
+        "B003JTCYH6",
+        "B000HX2LDE",
+        "B00KCFAZTE",
+        "B0C4CJJ3P2",
+        "B00F4ZUU8I",
+        "B000EX5JO0",
+        "B083NGYLQQ"
+      ],
+      "swapped_query_qid": "beauty-train-003554"
+    },
+    {
+      "qid": "beauty-train-003554",
+      "positive_and_negatives": [
+        "B00A8ODE7Y",
+        "B07CJ3VGLS",
+        "B0045H1JXQ",
+        "B08QCYRY47",
+        "B09NN1ZXYW",
+        "B005JLLG8U",
+        "B08SJ9JRF7"
+      ],
+      "swapped_query_qid": "train-pet-supplies-000517"
+    },
+    {
+      "qid": "train-pet-supplies-000517",
+      "positive_and_negatives": [
+        "B07TNH4FDY",
+        "B09YYMYGZ6",
+        "B0BSMND3XZ",
+        "B09JN9BFBT",
+        "B0BNZWF54N",
+        "B0843KBVNN",
+        "B004NMR6TY"
+      ],
+      "swapped_query_qid": "train-sports-and-outdoors-000132"
+    },
+    {
+      "qid": "train-sports-and-outdoors-000132",
+      "positive_and_negatives": [
+        "B0C589GVBX",
+        "B078GRWQPL",
+        "B07NR9XH8C",
+        "B07X5M2CHZ",
+        "B00DW1JT2O",
+        "B09LNPYBQM",
+        "B07C1XZTTV"
+      ],
+      "swapped_query_qid": "beauty-train-002919"
+    },
+    {
+      "qid": "beauty-train-002919",
+      "positive_and_negatives": [
+        "B000G62HYU",
+        "B08JYD48P7",
+        "B09K4QJ5Q2",
+        "B00Y9QLG1I",
+        "B007N16KOY",
+        "B0849FH9MC",
+        "B005S8KR6Q"
+      ],
+      "swapped_query_qid": "beauty-train-003058"
+    },
+    {
+      "qid": "beauty-train-003058",
+      "positive_and_negatives": [
+        "B004TSFB1M",
+        "B09SH3ZBLW",
+        "B004TSF996",
+        "B001EM1BBK",
+        "B004TSFE28",
+        "B09LHNLQMJ",
+        "B07FD5LFJ5"
+      ],
+      "swapped_query_qid": "train-toys-and-games-000518"
+    },
+    {
+      "qid": "train-toys-and-games-000518",
+      "positive_and_negatives": [
+        "B08CTPYYXV",
+        "B00J0RZKH2",
+        "B00MZ6BVM8",
+        "B000N5RT2O",
+        "B07QC8GW3K",
+        "B0125KRB04",
+        "B094DQ944G"
+      ],
+      "swapped_query_qid": "train-home-and-kitchen-000420"
+    },
+    {
+      "qid": "train-home-and-kitchen-000420",
+      "positive_and_negatives": [
+        "B005T3NTAQ",
+        "B09MTB4TK3",
+        "B0C61TVN95",
+        "B00ACLIBUI",
+        "B0C4G5Z8FN",
+        "B0034JXBSC",
+        "B0BGS8QTSM"
+      ],
+      "swapped_query_qid": "train-toys-and-games-000285"
+    },
+    {
+      "qid": "train-toys-and-games-000285",
+      "positive_and_negatives": [
+        "B01M5KD9YA",
+        "B074NJ3CRW",
+        "B00JEYV08O",
+        "B0044AHEX8",
+        "B004JZ6OV6",
+        "B0BTVJJ88B",
+        "B09BD6CFCR"
+      ],
+      "swapped_query_qid": "train-home-and-kitchen-000352"
+    }
+  ]
+}

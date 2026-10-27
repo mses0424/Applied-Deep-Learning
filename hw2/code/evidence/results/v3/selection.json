@@ -1,0 +1,24 @@
+{
+  "selected": "E10",
+  "metrics": {
+    "queries": 487,
+    "exact_recall@10": 0.731006160164271,
+    "exact_mrr@10": 0.6259908412372479
+  },
+  "criterion": "Train-validation exact MRR@10, then Recall@10, then measured runtime",
+  "public_data_used": false,
+  "ta_8gb_cold_runtime_verified": false,
+  "result_sha256": {
+    "E00": "44d217471fc8f3af772daa19330d6eb4cb1eaae5d7f3447b61fb51e9b23d0f3e",
+    "E01": "aff7587f3dc5b9a6f80df5deb3d30f2517dc726d7d2c7f390ee3429ae99cb003",
+    "E02": "00b5fbf104b105eb15e36bf38de685464ad1ec695a1ccdc8b382df7c04c48054",
+    "E03": "b757ac7956373d2908a9d218d9a77280e3bf700846bf21da2b7b24ce22e8c6bc",
+    "E04": "6163a0964e78318332e289e213f440738e201e3a2f20887b3dd5d0c2f710c436",
+    "E05": "24f9d629ec02e7f7fcf77142b67dbfaeb08ca9fab93fb1d3c09dbc3f129567cb",
+    "E06": "c8b19fb0d38bfaf8e81f764499896af6f99db37ec325cce2f84ae04ed3c74548",
+    "E07": "3327f84164b1054677d5d949e552b1ba5631ee90fdcf327e1d09dc5f9cf00bcf",
+    "E08": "121501e446502ca63d155c78b3773c51835b8e3be0156ebf9d2fb57c63090bbf",
+    "E09": "eed2a405463b4c66be78317526d9863bab55a9b1dda5c365c1962b506437ffd7",
+    "E10": "a86f77ebae93044df024c33f977061f02021c17c17fe9f5406d22643c7f99ed7"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "specification": {
+    "training": {
+      "config": {
+        "seed": 2026,
+        "initial_model": "models/bge-reranker-v2-m3",
+        "epochs": 8,
+        "min_epochs": 3,
+        "patience": 2,
+        "learning_probe_size": 64,
+        "query_batch_size": 4,
+        "gradient_accumulation_steps": 8,
+        "hard_negatives": 4,
+        "medium_negatives": 1,
+        "random_negatives": 1,
+        "learning_rate": 5e-05,
+        "weight_decay": 0.01,
+        "warmup_ratio": 0.06,
+        "max_grad_norm": 1.0,
+        "max_length": 512,
+        "query_max_length": 192,
+        "label_smoothing": 0.1,
+        "pairwise_weight": 0.0,
+        "lora_r": 32,
+        "lora_alpha": 64,
+        "lora_dropout": 0.1,
+        "target_modules": [
+          "query",
+          "key",
+          "value"
+        ],
+        "modules_to_save": [
+          "classifier"
+        ]
+      },
+      "hashes": {
+        "retrieval_utils.py": "793ca23d72b5d52e0a2ed4907a16e7b37882bdbec912f076e87bc15d178dc9f0",
+        "scripts/common.py": "2f0ac47565ce8e08422a07b48a313f2eb5587c736af43d2189a4d78ae3d52b57",
+        "scripts/v4_common.py": "3ea633ed68af88537ce0a4116f0eb85900c02bbf94a672c758e60fbc947b03ff",
+        "scripts/v4_pipeline.py": "000a84add9ea9c3bdd8ee19c6dbea868e245cf78bf519b3bf30d9e02a837df29",
+        "scripts/train_v4.py": "4effc73e8436694ac9097a013153d4ae3292f6e5664581defc89fe86877481b1",
+        "prepared/manifest.json": "a128b41bca241ccff1720c06800b3d6e8eb79e1907404dadca89c5cead710f32"
+      },
+      "models": {
+        "initial_model": "98d1b6ae3e07214cf16618aec28b2fcea6c6a5c43b00a8e92328f6c7432fd305"
+      }
+    },
+    "inference": {
+      "strategy": "hybrid_rerank",
+      "dense_model": "models/e5-base-v2",
+      "reranker_model": "models/bge-reranker-v2-m3",
+      "device": "cuda:0",
+      "encode_batch_size": 8,
+      "rerank_batch_size": 4,
+      "dense_max_length": 512,
+      "rerank_max_length": 512,
+      "query_max_length": 192,
+      "retrieve_k": 400,
+      "rerank_k": 128,
+      "rrf_k": 60,
+      "cache_dir": "cache/retrieval",
+      "seed": 2026,
+      "document_views": 1,
+      "tail_words": 180,
+      "recent_query_weight": 0.0,
+      "lexical_weight": 3.0,
+      "dense_weight": 1.0,
+      "bm25_bigrams": true,
+      "turn_weights": true,
+      "title_boost": 3.0,
+      "candidate_policy": "protected_union",
+      "lexical_quota": 96,
+      "dense_quota": 32,
+      "rerank_blend": 0.0,
+      "dense_pooling": "mean",
+      "query_prefix": "query: ",
+      "passage_prefix": "passage: ",
+      "dense_query_mode": "user"
+    },
+    "mining_sha256": "d1fd0c1751446e40664832c230e5daec7c6fe1af47bc463a77ae3b016c69e76e"
+  },
+  "selected_epoch": 1,
+  "checkpoint": "models/v4-reranker-listwise",
+  "trained_epochs": 3,
+  "selection": "best trained epoch by validation MRR then Recall",
+  "parameter_counts": {
+    "trainable": 5769217,
+    "total": 573524994
+  },
+  "peak_allocated_gib": 4.37748384475708,
+  "runtime_seconds": 6056.267748489976,
+  "checkpoint_fingerprint": "8207d3377656b4ff57c8c7eec49142a2d66c1182e50a4430b2620fe4e20589fd",
+  "history_sha256": "3295b4812250a933d468df113dce2e026510da18dbc0a1fe15e4d302bba256ee"
+}

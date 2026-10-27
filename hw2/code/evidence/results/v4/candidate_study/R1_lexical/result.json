@@ -1,0 +1,128 @@
+{
+  "id": "R1_lexical",
+  "signature": {
+    "config": {
+      "strategy": "hybrid",
+      "dense_model": "models/bge-base-en-v1.5",
+      "reranker_model": "models/bge-reranker-v2-m3",
+      "device": "cuda:0",
+      "encode_batch_size": 8,
+      "rerank_batch_size": 4,
+      "dense_max_length": 512,
+      "rerank_max_length": 512,
+      "query_max_length": 192,
+      "retrieve_k": 400,
+      "rerank_k": 128,
+      "rrf_k": 60,
+      "cache_dir": "cache/retrieval",
+      "seed": 2026,
+      "document_views": 1,
+      "tail_words": 180,
+      "recent_query_weight": 0.0,
+      "lexical_weight": 3.0,
+      "dense_weight": 1.0,
+      "bm25_bigrams": true,
+      "turn_weights": true,
+      "title_boost": 3.0,
+      "candidate_policy": "protected_union",
+      "lexical_quota": 128,
+      "dense_quota": 0,
+      "rerank_blend": 0.0
+    },
+    "hashes": {
+      "retrieval_utils.py": "793ca23d72b5d52e0a2ed4907a16e7b37882bdbec912f076e87bc15d178dc9f0",
+      "scripts/common.py": "2f0ac47565ce8e08422a07b48a313f2eb5587c736af43d2189a4d78ae3d52b57",
+      "scripts/v4_common.py": "3ea633ed68af88537ce0a4116f0eb85900c02bbf94a672c758e60fbc947b03ff",
+      "scripts/v4_pipeline.py": "000a84add9ea9c3bdd8ee19c6dbea868e245cf78bf519b3bf30d9e02a837df29",
+      "scripts/train_v4.py": "4effc73e8436694ac9097a013153d4ae3292f6e5664581defc89fe86877481b1",
+      "prepared/manifest.json": "a128b41bca241ccff1720c06800b3d6e8eb79e1907404dadca89c5cead710f32"
+    },
+    "models": {
+      "dense_model": "f6e8073ad9928c689c1beb84a7361e7f030c39af1451935e4da40ecf85275ae6",
+      "reranker_model": "98d1b6ae3e07214cf16618aec28b2fcea6c6a5c43b00a8e92328f6c7432fd305"
+    }
+  },
+  "config": {
+    "strategy": "hybrid",
+    "dense_model": "models/bge-base-en-v1.5",
+    "reranker_model": "models/bge-reranker-v2-m3",
+    "device": "cuda:0",
+    "encode_batch_size": 8,
+    "rerank_batch_size": 4,
+    "dense_max_length": 512,
+    "rerank_max_length": 512,
+    "query_max_length": 192,
+    "retrieve_k": 400,
+    "rerank_k": 128,
+    "rrf_k": 60,
+    "cache_dir": "cache/retrieval",
+    "seed": 2026,
+    "document_views": 1,
+    "tail_words": 180,
+    "recent_query_weight": 0.0,
+    "lexical_weight": 3.0,
+    "dense_weight": 1.0,
+    "bm25_bigrams": true,
+    "turn_weights": true,
+    "title_boost": 3.0,
+    "candidate_policy": "protected_union",
+    "lexical_quota": 128,
+    "dense_quota": 0,
+    "rerank_blend": 0.0
+  },
+  "metrics": {
+    "queries": 487,
+    "exact_recall@10": 0.6509240246406571,
+    "exact_mrr@10": 0.43619748378475276
+  },
+  "coverage": {
+    "queries": 487,
+    "exact_recall@128": 0.7987679671457906,
+    "exact_mrr@128": 0.4427450245215035
+  },
+  "run": {
+    "config": {
+      "strategy": "hybrid",
+      "dense_model": "models/bge-base-en-v1.5",
+      "reranker_model": "models/bge-reranker-v2-m3",
+      "device": "cuda:0",
+      "encode_batch_size": 8,
+      "rerank_batch_size": 4,
+      "dense_max_length": 512,
+      "rerank_max_length": 512,
+      "query_max_length": 192,
+      "retrieve_k": 400,
+      "rerank_k": 128,
+      "rrf_k": 60,
+      "cache_dir": "cache/retrieval",
+      "seed": 2026,
+      "document_views": 1,
+      "tail_words": 180,
+      "recent_query_weight": 0.0,
+      "lexical_weight": 3.0,
+      "dense_weight": 1.0,
+      "bm25_bigrams": true,
+      "turn_weights": true,
+      "title_boost": 3.0,
+      "candidate_policy": "protected_union",
+      "lexical_quota": 128,
+      "dense_quota": 0,
+      "rerank_blend": 0.0
+    },
+    "strategy": "hybrid",
+    "query_count": 487,
+    "product_count": 50000,
+    "cache_hit": false,
+    "model_fingerprints": {
+      "dense": "f6e8073ad9928c689c1beb84a7361e7f030c39af1451935e4da40ecf85275ae6"
+    },
+    "timings": {
+      "lexical_seconds": 27.320417281007394,
+      "dense_and_fusion_seconds": 154.09110276703723,
+      "peak_cuda_allocated_gib": 0.2990584373474121,
+      "peak_cuda_reserved_gib": 0.4375,
+      "total_seconds": 181.44259407604113
+    }
+  },
+  "rankings_sha256": "23a7c089859107746a59b52ba98819f9092008c5ea3134b8b8d1f0a2598ad63c"
+}

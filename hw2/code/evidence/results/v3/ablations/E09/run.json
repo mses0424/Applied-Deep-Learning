@@ -1,0 +1,42 @@
+{
+  "config": {
+    "strategy": "hybrid_rerank",
+    "dense_model": "models/bge-large-en-v1.5",
+    "reranker_model": "models/v3-reranker-random",
+    "device": "cuda:0",
+    "encode_batch_size": 8,
+    "rerank_batch_size": 4,
+    "dense_max_length": 384,
+    "rerank_max_length": 384,
+    "query_max_length": 128,
+    "retrieve_k": 160,
+    "rerank_k": 80,
+    "rrf_k": 60,
+    "cache_dir": "cache/retrieval",
+    "seed": 2026,
+    "document_views": 2,
+    "tail_words": 180,
+    "recent_query_weight": 0.5,
+    "lexical_weight": 1.0,
+    "dense_weight": 1.5,
+    "bm25_bigrams": true,
+    "turn_weights": true,
+    "title_boost": 3.0
+  },
+  "strategy": "hybrid_rerank",
+  "query_count": 487,
+  "product_count": 50000,
+  "cache_hit": true,
+  "model_fingerprints": {
+    "dense": "104e0969992fe4094b56dd78f6515d78a62197889977b0886e78a09efd7e0aaa",
+    "reranker": "2a6fa233f58b77382d1d2fe9e89b8c1e20779fbe11229e93e673a69253ac10a1"
+  },
+  "timings": {
+    "lexical_seconds": 27.633572038030252,
+    "dense_and_fusion_seconds": 12.80179096898064,
+    "rerank_seconds": 289.0022141940426,
+    "peak_cuda_allocated_gib": 1.0999627113342285,
+    "peak_cuda_reserved_gib": 1.1328125,
+    "total_seconds": 329.44995656306855
+  }
+}

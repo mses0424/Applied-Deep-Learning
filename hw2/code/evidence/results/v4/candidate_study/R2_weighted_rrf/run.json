@@ -1,0 +1,44 @@
+{
+  "config": {
+    "strategy": "hybrid",
+    "dense_model": "models/bge-base-en-v1.5",
+    "reranker_model": "models/bge-reranker-v2-m3",
+    "device": "cuda:0",
+    "encode_batch_size": 8,
+    "rerank_batch_size": 4,
+    "dense_max_length": 512,
+    "rerank_max_length": 512,
+    "query_max_length": 192,
+    "retrieve_k": 400,
+    "rerank_k": 128,
+    "rrf_k": 60,
+    "cache_dir": "cache/retrieval",
+    "seed": 2026,
+    "document_views": 1,
+    "tail_words": 180,
+    "recent_query_weight": 0.0,
+    "lexical_weight": 3.0,
+    "dense_weight": 1.0,
+    "bm25_bigrams": true,
+    "turn_weights": true,
+    "title_boost": 3.0,
+    "candidate_policy": "rrf",
+    "lexical_quota": 96,
+    "dense_quota": 32,
+    "rerank_blend": 0.0
+  },
+  "strategy": "hybrid",
+  "query_count": 487,
+  "product_count": 50000,
+  "cache_hit": true,
+  "model_fingerprints": {
+    "dense": "f6e8073ad9928c689c1beb84a7361e7f030c39af1451935e4da40ecf85275ae6"
+  },
+  "timings": {
+    "lexical_seconds": 27.06239882996306,
+    "dense_and_fusion_seconds": 4.17340525588952,
+    "peak_cuda_allocated_gib": 0.24532175064086914,
+    "peak_cuda_reserved_gib": 0.26953125,
+    "total_seconds": 31.26868850388564
+  }
+}

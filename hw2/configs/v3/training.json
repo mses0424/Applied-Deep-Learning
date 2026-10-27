@@ -1,0 +1,22 @@
+{
+  "seed": 2026,
+  "validation_fraction": 0.1,
+  "epochs": 2,
+  "query_batch_size": 1,
+  "gradient_accumulation_steps": 16,
+  "hard_negatives": 3,
+  "random_negatives": 1,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "max_grad_norm": 1.0,
+  "max_length": 384,
+  "query_max_length": 128,
+  "label_smoothing": 0.1,
+  "gradient_checkpointing": true,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": ["query", "value"],
+  "modules_to_save": ["classifier"]
+}

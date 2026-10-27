@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "stage": "finished",
+  "started_at": "2026-10-07T23:01:41.910431+08:00",
+  "config_sha256": "60586c85edc00225a5ed97802926222ca4bb1dc6a97ab5bb8e08cb13e93336f8",
+  "judge_batch_size": 1,
+  "selection": "T_listwise",
+  "metrics": {
+    "queries": 1000,
+    "graded_recall@10": 0.968,
+    "graded_mrr@10": 0.8809686507936508
+  },
+  "boss_and_local_time_pass": true,
+  "threshold_check": "simple: Recall@10 0.968000 / 0.860; MRR@10 0.880969 / 0.650: PASS\nstrong: Recall@10 0.968000 / 0.885; MRR@10 0.880969 / 0.680: PASS\nboss  : Recall@10 0.968000 / 0.950; MRR@10 0.880969 / 0.800: PASS\nLocal retrieval wall time: 1473.4s; cache hit: False\nJudge parse failures: 0\nPublic passing does not establish private passing; TA hardware timing remains separate.\n",
+  "finished_at": "2026-10-08T01:10:41.632128+08:00"
+}
