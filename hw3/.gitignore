@@ -1,0 +1,20 @@
+# weights, data and outputs (too large for git)
+adapter_checkpoint/
+*.safetensors
+*.bin
+runs/
+preds/
+results/
+training_data*/
+external_data/
+logs/
+# course-provided materials (not redistributed)
+eval.py
+eval/
+data/
+# environments and caches
+.venv*/
+.python*/
+__pycache__/
+*.pyc
+.DS_Store
