@@ -1,0 +1,9 @@
+step,accuracy_percent,source,original_score_json_available,subset_size,same_600_ids_verified
+6000,65.12,user_provided_2026-11-01,False,,False
+6600,65.43,user_provided_2026-11-01,False,,False
+7200,66.08,user_provided_2026-11-01,False,,False
+7800,66.36,user_provided_2026-11-01,False,,False
+8400,65.96,user_provided_2026-11-01,False,,False
+9000,67.12,user_provided_2026-11-01,False,,False
+9600,66.89,user_provided_2026-11-01,False,,False
+10200,67.35,user_provided_2026-11-01,False,,False

@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "label": "preds/fresh_v12_20261026_124322_negotiation_full.jsonl",
+  "rows": 8988,
+  "judged": false
+ },
+ "parser": "lenient",
+ "metrics": {
+  "n_negotiations": 2607,
+  "n_steps": 8988,
+  "reply_shapes": {
+   "call": 6733,
+   "invalid": 69,
+   "text": 971,
+   "text+call": 1215
+  },
+  "n_gold_text_steps": 7866,
+  "gold_text_steps_without_model_text": 5726,
+  "n_model_orders": 3879,
+  "order_accuracy": 0.8548594998711008,
+  "order_accuracy_cited": 0.7754575921629286,
+  "fill_rate": 0.8787878787878788,
+  "fill_rate_any_order": 0.9171461449942463,
+  "n_relative_price": 2291,
+  "relative_price": 1.0501798600742132,
+  "relative_price_median": 1.0,
+  "relative_price_min": 0.8108108108108109,
+  "text_accuracy": "not computed (no judgments)",
+  "ci95": {
+   "order_accuracy": [
+    0.8418107833163785,
+    0.868746776689015
+   ],
+   "order_accuracy_cited": [
+    0.7592075184150369,
+    0.7916246215943491
+   ],
+   "fill_rate": [
+    0.8661296509397776,
+    0.8910625239739164
+   ],
+   "fill_rate_any_order": [
+    0.9064058304564634,
+    0.9278864595320292
+   ],
+   "relative_price": [
+    1.0468702181873615,
+    1.0533285155093182
+   ]
+  }
+ },
+ "n_missing_predictions": 0,
+ "parser_beside": "strict",
+ "metrics_beside": {
+  "n_negotiations": 2607,
+  "n_steps": 8988,
+  "reply_shapes": {
+   "call": 6733,
+   "invalid": 76,
+   "text": 965,
+   "text+call": 1214
+  },
+  "n_gold_text_steps": 7866,
+  "gold_text_steps_without_model_text": 5733,
+  "n_model_orders": 3879,
+  "order_accuracy": 0.8548594998711008,
+  "order_accuracy_cited": 0.7754575921629286,
+  "fill_rate": 0.8787878787878788,
+  "fill_rate_any_order": 0.9171461449942463,
+  "n_relative_price": 2291,
+  "relative_price": 1.0501798600742132,
+  "relative_price_median": 1.0,
+  "relative_price_min": 0.8108108108108109,
+  "text_accuracy": "not computed (no judgments)",
+  "ci95": {
+   "order_accuracy": [
+    0.8418107833163785,
+    0.868746776689015
+   ],
+   "order_accuracy_cited": [
+    0.7592075184150369,
+    0.7916246215943491
+   ],
+   "fill_rate": [
+    0.8661296509397776,
+    0.8910625239739164
+   ],
+   "fill_rate_any_order": [
+    0.9064058304564634,
+    0.9278864595320292
+   ],
+   "relative_price": [
+    1.0468702181873615,
+    1.0533285155093182
+   ]
+  }
+ },
+ "n_pred_ids_not_in_data": 0,
+ "n_duplicate_pred_ids": 0
+}

@@ -1,0 +1,96 @@
+{
+ "headline": {
+  "base": {
+   "all": {
+    "n": 13021,
+    "tool_name_acc": 0.7871131249520006,
+    "step_acc": 0.7237539359496199,
+    "weighted_step_acc": 0.683314817878838,
+    "n_must_call": 3254
+   },
+   "call": {
+    "n": 7664,
+    "tool_name_acc": 0.8185020876826722,
+    "step_acc": 0.7108559498956158
+   },
+   "no_call": {
+    "n": 5357,
+    "tool_name_acc": 0.7422064588389023,
+    "step_acc": 0.7422064588389023
+   }
+  },
+  "with_first_step_rule": {
+   "all": {
+    "n": 13021,
+    "tool_name_acc": 0.7891866984102603,
+    "step_acc": 0.7258275094078795,
+    "weighted_step_acc": 0.683953010140166,
+    "n_must_call": 3254
+   },
+   "call": {
+    "n": 7664,
+    "tool_name_acc": 0.8220250521920668,
+    "step_acc": 0.7143789144050104
+   },
+   "no_call": {
+    "n": 5357,
+    "tool_name_acc": 0.7422064588389023,
+    "step_acc": 0.7422064588389023
+   }
+  },
+  "eligible": 4410,
+  "credited": 27,
+  "invalid_replies": 2,
+  "capped_replies": 2,
+  "missing_predictions": 0,
+  "parser": "lenient"
+ },
+ "beside": {
+  "base": {
+   "all": {
+    "n": 13021,
+    "tool_name_acc": 0.7871131249520006,
+    "step_acc": 0.7237539359496199,
+    "weighted_step_acc": 0.683314817878838,
+    "n_must_call": 3254
+   },
+   "call": {
+    "n": 7664,
+    "tool_name_acc": 0.8185020876826722,
+    "step_acc": 0.7108559498956158
+   },
+   "no_call": {
+    "n": 5357,
+    "tool_name_acc": 0.7422064588389023,
+    "step_acc": 0.7422064588389023
+   }
+  },
+  "with_first_step_rule": {
+   "all": {
+    "n": 13021,
+    "tool_name_acc": 0.7891866984102603,
+    "step_acc": 0.7258275094078795,
+    "weighted_step_acc": 0.683953010140166,
+    "n_must_call": 3254
+   },
+   "call": {
+    "n": 7664,
+    "tool_name_acc": 0.8220250521920668,
+    "step_acc": 0.7143789144050104
+   },
+   "no_call": {
+    "n": 5357,
+    "tool_name_acc": 0.7422064588389023,
+    "step_acc": 0.7422064588389023
+   }
+  },
+  "eligible": 4410,
+  "credited": 27,
+  "invalid_replies": 2,
+  "capped_replies": 2,
+  "missing_predictions": 0,
+  "parser": "strict"
+ },
+ "n_pred_ids_not_in_data": 0,
+ "n_duplicate_pred_ids": 0
+}

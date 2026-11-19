@@ -1,0 +1,95 @@
+{
+  "downloader": "code/download_public_v10.py",
+  "sources": [
+    {
+      "repo": "gorilla-llm/Berkeley-Function-Calling-Leaderboard",
+      "revision": "61fc0608cfd831fcfbbaa676ebdfef0ed963eeda",
+      "license": "Apache-2.0",
+      "files": {
+        "BFCL_v3_multi_turn_base.json": {
+          "bytes": 391058,
+          "sha256": "edaea7666e0089062c30f3ac511914d5c27414dbe9b8214488191980d873b145"
+        },
+        "BFCL_v3_multi_turn_miss_param.json": {
+          "bytes": 403181,
+          "sha256": "21a850b8bb0b41aba63e0bbcd9b4af6c7997144180eadd4bcdf4bdfd98077c1a"
+        },
+        "BFCL_v3_multi_turn_miss_func.json": {
+          "bytes": 401840,
+          "sha256": "e6cfbd225ac1182c82bfcd0a83410babd410a8cf2050942894017829e9a57e23"
+        },
+        "BFCL_v3_multi_turn_long_context.json": {
+          "bytes": 392651,
+          "sha256": "a7c2b44cfe14e243e66acbb0737970f1085460fed5793bfa0137fb4782ff8fc4"
+        },
+        "possible_answer/BFCL_v3_multi_turn_base.json": {
+          "bytes": 80428,
+          "sha256": "d03b360939e3ca7fe537016349f84868971340393c3d43c1dd9527b8e43102f2"
+        },
+        "possible_answer/BFCL_v3_multi_turn_miss_param.json": {
+          "bytes": 82360,
+          "sha256": "494068e24f5e821818040662efcbb88b15d5e34b98f5d08c62806f1463523dad"
+        },
+        "possible_answer/BFCL_v3_multi_turn_miss_func.json": {
+          "bytes": 82136,
+          "sha256": "9f5a0ebb3627062be8ecfc0ffa375b4ca3cf15d9a899f3bdedea9588aa5b80eb"
+        },
+        "possible_answer/BFCL_v3_multi_turn_long_context.json": {
+          "bytes": 116024,
+          "sha256": "07347ad66e4b304550b5f3b34e5b07864c0f1d738f8b59560fbd3c372255c504"
+        },
+        "multi_turn_func_doc/gorilla_file_system.json": {
+          "bytes": 13951,
+          "sha256": "26c01bed25bf7affbc8d281cc8124ccdc220a64c374ac4a7a9181dea0a0468ee"
+        },
+        "multi_turn_func_doc/math_api.json": {
+          "bytes": 9158,
+          "sha256": "83fa31708c89442bdcf12ac4dfbe3be8663ec9183a1b1524a9fda98164bc7e0b"
+        },
+        "multi_turn_func_doc/message_api.json": {
+          "bytes": 6097,
+          "sha256": "2855068a0e77c4f1861fb2c1aa581590af85eb4b56994c6ebf79e30afb83be24"
+        },
+        "multi_turn_func_doc/posting_api.json": {
+          "bytes": 10573,
+          "sha256": "87f9fc404a06e4107d7c366f1399c596440e84c16cb119faf374b2f532d86e8b"
+        },
+        "multi_turn_func_doc/ticket_api.json": {
+          "bytes": 6577,
+          "sha256": "1d78a0bbc15ca2dca3a2228be690b8b929783b2715175cd05b80ee2106581897"
+        },
+        "multi_turn_func_doc/trading_bot.json": {
+          "bytes": 14075,
+          "sha256": "c04b85e9ea0795a0fea1e1c3608795aa720edde52539b2e71897aa207976a25f"
+        },
+        "multi_turn_func_doc/travel_booking.json": {
+          "bytes": 15930,
+          "sha256": "5247c1f4db044d4c18c30cc8e3a4e2a0c818aa122f4aae62f9b95d94dec065a3"
+        },
+        "multi_turn_func_doc/vehicle_control.json": {
+          "bytes": 17545,
+          "sha256": "a0366b59ad6eabb10410eadf95aa5991262ad0bbc3f560ebba45d7fc3e4f2808"
+        }
+      }
+    },
+    {
+      "repo": "Agent-Ark/Toucan-1.5M",
+      "revision": "0df3cf37f2abefb380370cfb02eabea2a35ae782",
+      "license": "Apache-2.0",
+      "files": {
+        "SFT/train-00000-of-00003.parquet": {
+          "bytes": 120248296,
+          "sha256": "5657480020d6a16566363e74782f788ca0412c9c30d8858d33c84c3fee1a8dd4"
+        },
+        "SFT/train-00001-of-00003.parquet": {
+          "bytes": 68862387,
+          "sha256": "78dda82573f96804925ade4bcbcab5374c57c93c04a45bb73da63a63305964e8"
+        },
+        "SFT/train-00002-of-00003.parquet": {
+          "bytes": 236386052,
+          "sha256": "0742c36240fe31cc2d4638ebef7bc163645e5e344f08f62242614fab55aa777d"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "note": "Aggregate evaluation diagnostics only; no prompt, gold call, argument, or reply is exported.",
+  "tools": {
+    "data": "data/public_test.jsonl.gz",
+    "prediction": "preds/fresh_v12_20261026_124322_tools_full.jsonl",
+    "n": 13021,
+    "duplicate_predictions": 0,
+    "overall": {
+      "n": 13021,
+      "must_call_n": 3254,
+      "official_weighted_step_acc": 0.683953010140166,
+      "exact_step_acc": 0.7237539359496199,
+      "tool_name_acc": 0.7871131249520006
+    },
+    "categories": {
+      "eligible_text_credit": {
+        "n": 27,
+        "fraction": 0.0020735734582597344
+      },
+      "exact_call": {
+        "n": 5448,
+        "fraction": 0.41840104446663084
+      },
+      "invalid": {
+        "n": 2,
+        "fraction": 0.00015359803394516551
+      },
+      "missed_required_call": {
+        "n": 132,
+        "fraction": 0.010137470240380923
+      },
+      "no_call_correct": {
+        "n": 3976,
+        "fraction": 0.305352891482989
+      },
+      "no_call_false_positive": {
+        "n": 1379,
+        "fraction": 0.10590584440519162
+      },
+      "right_tool_wrong_arguments": {
+        "n": 825,
+        "fraction": 0.06335918900238077
+      },
+      "wrong_tool_name": {
+        "n": 1232,
+        "fraction": 0.09461638891022195
+      }
+    },
+    "by_slice": {
+      "eligible_call": {
+        "n": 4410,
+        "must_call_n": 0,
+        "official_weighted_step_acc": 0.7505668934240363,
+        "exact_step_acc": 0.7444444444444445,
+        "tool_name_acc": 0.8514739229024944
+      },
+      "must_call": {
+        "n": 3254,
+        "must_call_n": 3254,
+        "official_weighted_step_acc": 0.6653349723417332,
+        "exact_step_acc": 0.6653349723417332,
+        "tool_name_acc": 0.7738168408113092
+      },
+      "no_call": {
+        "n": 5357,
+        "must_call_n": 0,
+        "official_weighted_step_acc": 0.7422064588389023,
+        "exact_step_acc": 0.7422064588389023,
+        "tool_name_acc": 0.7422064588389023
+      }
+    },
+    "by_slice_and_category": {
+      "must_call": {
+        "exact_call": 2165,
+        "missed_required_call": 132,
+        "right_tool_wrong_arguments": 353,
+        "wrong_tool_name": 604
+      },
+      "eligible_call": {
+        "eligible_text_credit": 27,
+        "exact_call": 3283,
+        "right_tool_wrong_arguments": 472,
+        "wrong_tool_name": 628
+      },
+      "no_call": {
+        "invalid": 2,
+        "no_call_correct": 3976,
+        "no_call_false_positive": 1379
+      }
+    },
+    "by_domain": {
+      "gorilla_file_system": {
+        "n": 647,
+        "must_call_n": 266,
+        "official_weighted_step_acc": 0.7954620190726734,
+        "exact_step_acc": 0.8222565687789799,
+        "tool_name_acc": 0.8608964451313755
+      },
+      "math_api": {
+        "n": 134,
+        "must_call_n": 60,
+        "official_weighted_step_acc": 0.844213649851632,
+        "exact_step_acc": 0.8731343283582089,
+        "tool_name_acc": 0.8880597014925373
+      },
+      "message_api": {
+        "n": 548,
+        "must_call_n": 187,
+        "official_weighted_step_acc": 0.8695652173913043,
+        "exact_step_acc": 0.8631386861313869,
+        "tool_name_acc": 0.958029197080292
+      },
+      "no_call": {
+        "n": 5357,
+        "must_call_n": 0,
+        "official_weighted_step_acc": 0.7422064588389023,
+        "exact_step_acc": 0.7422064588389023,
+        "tool_name_acc": 0.7422064588389023
+      },
+      "ticket_api": {
+        "n": 411,
+        "must_call_n": 154,
+        "official_weighted_step_acc": 0.6983861992209237,
+        "exact_step_acc": 0.7493917274939172,
+        "tool_name_acc": 0.9440389294403893
+      },
+      "trading_bot": {
+        "n": 908,
+        "must_call_n": 394,
+        "official_weighted_step_acc": 0.9081724292770543,
+        "exact_step_acc": 0.8920704845814978,
+        "tool_name_acc": 0.9196035242290749
+      },
+      "travel_booking": {
+        "n": 538,
+        "must_call_n": 251,
+        "official_weighted_step_acc": 0.8119413657490168,
+        "exact_step_acc": 0.8327137546468402,
+        "tool_name_acc": 0.912639405204461
+      },
+      "unmapped_call": {
+        "n": 3779,
+        "must_call_n": 1648,
+        "official_weighted_step_acc": 0.5106120036537531,
+        "exact_step_acc": 0.5575549087060069,
+        "tool_name_acc": 0.7115639057951839
+      },
+      "vehicle_control": {
+        "n": 699,
+        "must_call_n": 294,
+        "official_weighted_step_acc": 0.884304932735426,
+        "exact_step_acc": 0.9341917024320457,
+        "tool_name_acc": 0.9570815450643777
+      }
+    },
+    "by_tool_count": {
+      "01-10": {
+        "n": 1052,
+        "must_call_n": 285,
+        "official_weighted_step_acc": 0.6029858999170583,
+        "exact_step_acc": 0.6615969581749049,
+        "tool_name_acc": 0.7138783269961977
+      },
+      "11-20": {
+        "n": 7774,
+        "must_call_n": 1950,
+        "official_weighted_step_acc": 0.6140815037118939,
+        "exact_step_acc": 0.6560329302804219,
+        "tool_name_acc": 0.7330846411113969
+      },
+      "21-40": {
+        "n": 3987,
+        "must_call_n": 965,
+        "official_weighted_step_acc": 0.8372001262626263,
+        "exact_step_acc": 0.8645598194130926,
+        "tool_name_acc": 0.9071983947830449
+      },
+      "41+": {
+        "n": 208,
+        "must_call_n": 54,
+        "official_weighted_step_acc": 0.8573487031700289,
+        "exact_step_acc": 0.8701923076923077,
+        "tool_name_acc": 0.875
+      }
+    },
+    "by_history": {
+      "0_previous_calls": {
+        "n": 2090,
+        "must_call_n": 0,
+        "official_weighted_step_acc": 0.5440191387559808,
+        "exact_step_acc": 0.538755980861244,
+        "tool_name_acc": 0.6129186602870813
+      },
+      "1_previous_call": {
+        "n": 2237,
+        "must_call_n": 1003,
+        "official_weighted_step_acc": 0.6715198863636364,
+        "exact_step_acc": 0.7080911935628074,
+        "tool_name_acc": 0.8082253017434063
+      },
+      "2-3_previous_calls": {
+        "n": 4606,
+        "must_call_n": 1291,
+        "official_weighted_step_acc": 0.6319260400616333,
+        "exact_step_acc": 0.7164567954841511,
+        "tool_name_acc": 0.78419452887538
+      },
+      "4+_previous_calls": {
+        "n": 4088,
+        "must_call_n": 960,
+        "official_weighted_step_acc": 0.7842551854179761,
+        "exact_step_acc": 0.8351272015655578,
+        "tool_name_acc": 0.8679060665362035
+      }
+    }
+  },
+  "negotiation": {
+    "data": "data/public_test_negotiation.jsonl.gz",
+    "prediction": "preds/fresh_v12_20261026_124322_negotiation_full.jsonl",
+    "steps": 8988,
+    "negotiations": 2607,
+    "duplicate_predictions": 0,
+    "orders": 3879,
+    "valid_orders": 3316,
+    "cited_valid_orders": 3008,
+    "order_accuracy": 0.8548594998711008,
+    "cited_order_accuracy": 0.7754575921629286,
+    "negotiations_with_any_order": 2391,
+    "negotiations_with_valid_order": 2291,
+    "order_failure_reasons_nonexclusive": {
+      "missing_or_wrong_citation": 659,
+      "no_current_valid_offer": 119,
+      "over_budget": 222,
+      "terms_not_latest_offer": 229,
+      "unacceptable_product": 4
+    },
+    "gold_to_pred_first_call": {
+      "None->end_session": 1,
+      "None->none": 61,
+      "None->order": 160,
+      "None->search_catalog": 256,
+      "None->wait": 15,
+      "order->end_session": 28,
+      "order->none": 615,
+      "order->order": 1672,
+      "order->search_catalog": 28,
+      "order->wait": 264,
+      "search_catalog->none": 6,
+      "search_catalog->search_catalog": 217,
+      "wait->end_session": 19,
+      "wait->none": 358,
+      "wait->order": 2047,
+      "wait->search_catalog": 2524,
+      "wait->wait": 717
+    },
+    "kind_to_reply_shape": {
+      "call:call": 1073,
+      "call:invalid": 3,
+      "call:text": 39,
+      "call:text+call": 7,
+      "text+call:call": 5228,
+      "text+call:invalid": 65,
+      "text+call:text": 872,
+      "text+call:text+call": 1208,
+      "text:call": 432,
+      "text:invalid": 1,
+      "text:text": 60
+    },
+    "relative_price": {
+      "n": 2291,
+      "mean": 1.0501798600742132,
+      "below_1": 18,
+      "equal_1": 1216,
+      "above_1": 1057
+    }
+  }
+}
